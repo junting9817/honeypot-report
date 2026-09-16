@@ -106,6 +106,12 @@ HP/
 
 ## Progress
 
+- Phase 2: built 2026-09-16 (`snapshot.py`, `chquery.py`, `exclusions.py`, `docs/method.md`). Verified:
+  `--check-determinism` passes, 103,808 events / 13,215 sessions / 194 addresses kept, the 48 events of my own testing
+  excluded by the query, and the written file passes the redaction check. The guard blocked the first run because a
+  scanner puts the honeypot's own address in its SSH version string (`MGLNDD_<addr>_22`); that value is now rewritten
+  to a label and counted in `meta.sanitised_values`, so the finding survives without the address. Waiting for my
+  confirmation
 - Phase 1: built 2026-09-16. Verified: `--self-test` catches all 3 configured literals and all 5 structural patterns,
   reports them masked (`34.47.x.x`), allows documentation and public addresses, and the pre-commit hook blocked a real
   commit that contained the sensor's address. Waiting for my confirmation
