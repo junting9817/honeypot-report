@@ -1,0 +1,30 @@
+[Unit]
+Description=Refresh the honeypot report (snapshot, analysis, page)
+Documentation=file:/home/junting9817/HP/docs/method.md
+After=docker.service network-online.target
+Wants=docker.service
+
+[Service]
+Type=oneshot
+User=junting9817
+Group=junting9817
+WorkingDirectory=/home/junting9817/HP
+ExecStart=/home/junting9817/HP/scripts/refresh.sh --commit
+TimeoutStartSec=900
+MemoryMax=512M
+
+# The report only ever reads the lab's database and writes inside its own repository.
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/junting9817/HP
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+# AF_UNIX reaches the docker socket; AF_INET is needed only for the VirusTotal hash lookup.
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target

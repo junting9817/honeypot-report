@@ -9,13 +9,22 @@ own VPC.
 
 ## Status
 
-Phase 1 of 5. The redaction guard is built and tested; nothing is published yet.
+All five phases built. The report is generated from live data and refreshed weekly by a systemd timer; publishing the
+page stays a deliberate act, so nothing goes outward unreviewed.
 
 | | |
 |---|---|
 | Source | `nsm.cowrie_events` — Cowrie SSH honeypot, read-only |
-| Collected so far | 103,784 events · 13,203 sessions · 183 source addresses · 35 countries |
-| Published | nothing yet — see Phases below |
+| Window | 2026-09-14 05:57:05 → 2026-09-16 12:24:20 UTC |
+| Collected | 103,859 events · 13,227 sessions · 197 addresses · 39 countries |
+| The finding | those addresses are 28 SSH client fingerprints — one program runs from many hosts at once |
+| Time to first attack | 57.2 minutes after the port opened |
+| Output | `data/snapshot-<date>.json`, `data/analysis-<date>.json`, `site/index.html` — all committed |
+
+```console
+$ scripts/refresh.sh --check
+refresh: the pipeline is healthy; nothing was written
+```
 
 ## The problem this repository solves first
 
@@ -46,24 +55,34 @@ check-redactions: 1 value(s) that must not be published:
 pre-commit: commit blocked by the redaction check.
 ```
 
-## What is already visible in the raw data
+## What the analysis found
 
-Two things worth the write-up, found before any analysis code was written:
+The first thing I noticed in the raw data was six addresses in `109.160.32.0/24` with identical session counts — 1,437
+each, to the event. The obvious reading was "one actor, six hosts in one subnet".
 
-- **Six addresses in `109.160.32.0/24` with identical session counts** — 1,437 sessions each, to the event. That is one
-  actor operating six hosts, not six attackers.
-- **Two SFTP uploads of a file named `sshd`.** One of them has SHA-256 `e3b0c442…b855` — the hash of an empty file. The
-  bot deployed its backdoor, uploaded nothing, and carried on.
+Clustering by SSH client fingerprint showed that reading was too small. The real group is **9 addresses spread across
+Korea, Singapore and the United States**, and the `/24` itself splits across more than one client build — so neither
+the subnet nor the country was the thing that held the group together. The tool was.
 
-## Phases
+- **A second cluster runs from Germany, the United States, Vietnam and China at once**, which is why the page keeps a
+  country ranking only to show why it misleads: that ranking splits one operator across four rows.
+- **1,844 passwords were tried by exactly one fingerprint and only 199 by more than one.** The shared handful is the
+  dictionary everyone has; the long tail is each program carrying its own list.
+- **Two SFTP uploads of a file named `sshd`.** One has SHA-256 `e3b0c442…b855` — the hash of an empty file. The bot
+  deployed its backdoor, uploaded nothing, and carried on as though it had worked.
+- **110 addresses never completed a key exchange at all**: the majority of the addresses, and almost none of the
+  traffic.
 
-1. **Redaction guard** — built and tested.
-2. **Snapshot** — deterministic queries into a versioned JSON; the lab's own test traffic excluded by the query, not by
-   memory.
-3. **Analysis** — campaign clustering, credential reuse between actors, command fingerprints, time to first attack,
-   VirusTotal by hash.
-4. **The page** — self-contained, generated from the snapshot.
-5. **Freshness and limits** — weekly regeneration, and an honest account of what one sensor over a few days cannot say.
+## How it is built
+
+1. **Redaction guard** — `scripts/check-redactions.py`, with a self-test that plants every configured value.
+2. **Snapshot** — `scripts/snapshot.py`: deterministic queries into a versioned JSON, my own traffic excluded by the
+   query rather than by memory.
+3. **Analysis** — `scripts/analyse.py`: clusters sessions by SSH client fingerprint, measures credential reuse between
+   operators, and reconciles every derived figure against the snapshot before anything can be published.
+4. **The page** — `scripts/build-site.py`: self-contained HTML rendered from those two files only.
+5. **Freshness** — `scripts/refresh.sh` runs all four; a weekly systemd timer keeps the data current.
+   [docs/limits.md](docs/limits.md) is the long form of what one sensor over a few days cannot say.
 
 ## Rules this project runs under
 

@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh the honeypot report every Monday morning
+
+[Timer]
+OnCalendar=Mon *-*-* 06:20:00 UTC
+# A missed run (VM stopped, maintenance) fires once after boot rather than being skipped.
+Persistent=true
+AccuracySec=5min
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target

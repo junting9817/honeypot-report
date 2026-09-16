@@ -106,6 +106,12 @@ HP/
 
 ## Progress
 
+- Phase 5: built 2026-09-16 (`refresh.sh`, `systemd/hp-refresh.{service,timer}`, `install-timer.sh`,
+  `docs/limits.md`). The timer is installed and enabled — next run Mon 2026-09-21 06:29 UTC — and one manual run
+  through systemd succeeded end to end under the hardened unit (docker socket reachable, repo writable, committed
+  dbb5b1d, 23.4 MB peak). `refresh.sh --check` verifies the whole pipeline without touching the working tree.
+  The timer refreshes data only: republishing the page stays manual so nothing goes outward unreviewed.
+  Waiting for my confirmation
 - Phase 4: built 2026-09-16 (`build-site.py`). Renders `site/index.html` from the snapshot and analysis only —
   deterministic, self-contained, no scripts and no live queries. Refuses to build if the analysis did not reconcile,
   and scans the finished HTML before writing it. Published as an artifact. Waiting for my confirmation
