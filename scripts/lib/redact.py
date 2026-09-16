@@ -54,6 +54,29 @@ def mask(value: str) -> str:
     return f"{value[:2]}…({len(value)} chars)"
 
 
+def sanitise(text: str, literals: list[tuple[str, str]]) -> tuple[str, dict[str, int]]:
+    """Rewrite never-publish values inside *attacker-supplied* text, keeping the finding and losing the value.
+
+    Some of what the honeypot records contains my own host's address because the attacker put it there — a scanner
+    that announces its target in the SSH version string, for example. Dropping those rows would hide a real finding;
+    publishing them would leak the address. So the value is replaced by a label that says what it was:
+
+        MGLNDD_<my address>_22   ->   MGLNDD_<redacted:honeypot-public-ip>_22
+
+    Returns the rewritten text and a count per rule, so nothing is ever silently removed.
+    """
+    counts: dict[str, int] = {}
+    for name, value in literals:
+        if value in text:
+            counts[name] = counts.get(name, 0) + text.count(value)
+            text = text.replace(value, f"<redacted:{name}>")
+    for name, pattern in PATTERNS:
+        text, replaced = pattern.subn(f"<redacted:{name}>", text)
+        if replaced:
+            counts[name] = counts.get(name, 0) + replaced
+    return text, counts
+
+
 def load_literals(path: Path = LITERALS_FILE) -> list[tuple[str, str]]:
     """[(rule name, value)] from the git-ignored literals file.
 
