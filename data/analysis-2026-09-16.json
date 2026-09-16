@@ -3,7 +3,7 @@
   "note": "Sessions partition exactly: every session carries at most one hassh. Addresses do not — some present more than one client build — so an address may appear in several clusters and the count of addresses across clusters can exceed the number of addresses seen.",
   "problems": [],
   "reconciles": true,
-  "sessions_in_unlisted_clusters": 18,
+  "sessions_in_unlisted_clusters": 19,
   "signal": "hassh — the SSH client's key-exchange fingerprint",
   "unit": "session"
  },
@@ -113,11 +113,11 @@
     "US"
    ],
    "credential_pairs": 187,
-   "events": 1607,
+   "events": 1617,
    "first_seen": "2026-09-14 16:19:22.113753",
    "hassh": "16443846184eafde36765c9bab2f4397",
    "is_campaign": true,
-   "last_seen": "2026-09-15 21:55:15.104152",
+   "last_seen": "2026-09-16 11:29:51.947895",
    "networks": [
     "BANATSYNC SRL",
     "DigitalOcean, LLC",
@@ -127,7 +127,7 @@
     "TECHOFF SRV LIMITED",
     "UNMANAGED LTD"
    ],
-   "sessions": 203
+   "sessions": 204
   },
   {
    "address_count": 3,
@@ -143,16 +143,16 @@
    "countries": [
     "GB"
    ],
-   "credential_pairs": 77,
-   "events": 385,
+   "credential_pairs": 82,
+   "events": 410,
    "first_seen": "2026-09-15 01:10:03.793159",
    "hassh": "3356ae6145fa86124298066e281ea2d9",
    "is_campaign": true,
-   "last_seen": "2026-09-16 10:30:57.730345",
+   "last_seen": "2026-09-16 12:24:20.138806",
    "networks": [
     "UNMANAGED LTD"
    ],
-   "sessions": 77
+   "sessions": 82
   },
   {
    "address_count": 1,
@@ -649,7 +649,7 @@
   }
  ],
  "credential_reuse": {
-  "exclusive_passwords": 1844,
+  "exclusive_passwords": 1849,
   "shared_passwords": 199
  },
  "exposure": {
@@ -663,14 +663,14 @@
   "schema_version": 1,
   "source_snapshot": "snapshot-2026-09-16.json",
   "top_n": 15,
-  "window_end": "2026-09-16 10:40:53.206897",
+  "window_end": "2026-09-16 12:24:20.138806",
   "window_start": "2026-09-14 05:57:05.761100"
  },
  "most_shared_passwords": [
   {
-   "attempts": 78,
+   "attempts": 80,
    "password": "admin",
-   "source_addresses": 19,
+   "source_addresses": 20,
    "used_by_clusters": 6
   },
   {
@@ -759,15 +759,15 @@
   }
  ],
  "no_handshake": {
-  "addresses_that_never_handshook": 110,
-  "addresses_with_such_a_session": 134,
-  "countries": 36,
-  "sessions": 232
+  "addresses_that_never_handshook": 112,
+  "addresses_with_such_a_session": 136,
+  "countries": 37,
+  "sessions": 237
  },
  "shape": {
   "addresses_in_several_clusters": 13,
-  "addresses_with_fingerprint": 84,
-  "commands_run": 12780,
+  "addresses_with_fingerprint": 85,
+  "commands_run": 12781,
   "fingerprints": 28
  },
  "virustotal": {

