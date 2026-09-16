@@ -106,6 +106,9 @@ HP/
 
 ## Progress
 
+- Phase 4: built 2026-09-16 (`build-site.py`). Renders `site/index.html` from the snapshot and analysis only —
+  deterministic, self-contained, no scripts and no live queries. Refuses to build if the analysis did not reconcile,
+  and scans the finished HTML before writing it. Published as an artifact. Waiting for my confirmation
 - Phase 3: built 2026-09-16 (`analyse.py`, `virustotal.py`). Clusters sessions by hassh: 84 addresses that complete a
   handshake collapse into 28 client fingerprints; the largest is 9,234 sessions from 9 addresses in 3 countries, the
   second 3,340 sessions from 5 addresses across CN/DE/US/VN. 1,844 passwords belong to one cluster, 199 are shared.
