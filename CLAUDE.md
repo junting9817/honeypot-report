@@ -106,6 +106,13 @@ HP/
 
 ## Progress
 
+- Phase 3: built 2026-09-16 (`analyse.py`, `virustotal.py`). Clusters sessions by hassh: 84 addresses that complete a
+  handshake collapse into 28 client fingerprints; the largest is 9,234 sessions from 9 addresses in 3 countries, the
+  second 3,340 sessions from 5 addresses across CN/DE/US/VN. 1,844 passwords belong to one cluster, 199 are shared.
+  First attacker session 57.2 minutes after SSH went live. Reconciliation against the snapshot passes. The first
+  version was silently empty because Cowrie puts `hassh` on the key-exchange event only — the fingerprint is now
+  resolved per session and joined onto every event. VirusTotal is wired but skipped: no key yet. Waiting for my
+  confirmation
 - Phase 2: built 2026-09-16 (`snapshot.py`, `chquery.py`, `exclusions.py`, `docs/method.md`). Verified:
   `--check-determinism` passes, 103,808 events / 13,215 sessions / 194 addresses kept, the 48 events of my own testing
   excluded by the query, and the written file passes the redaction check. The guard blocked the first run because a

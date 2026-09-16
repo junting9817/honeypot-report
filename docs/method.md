@@ -89,6 +89,82 @@ honeypot's address. The guard is meant to catch me, and it did.
 | `file_events` | what was uploaded or downloaded — SHA-256 and the attacker's filename only (H4) |
 | `session_seconds` | how long a session lasted |
 
+## Finding the operators behind the addresses
+
+A ranking of attacking addresses is not a finding. One operator runs many hosts, and the interesting question is which
+of the 194 addresses belong together. `scripts/analyse.py` answers it with **hassh**, the fingerprint of the SSH
+client's key-exchange offer: the same build of the same tool produces the same hassh wherever it runs.
+
+**The clustering unit is the session, not the address.** Every session carries at most one hassh — verified, not
+assumed — so sessions partition exactly and the totals must add up. Addresses do not partition: 13 of them presented
+more than one client build, so an address can appear in several clusters. The file says so rather than pretending
+each address has a single owner.
+
+```console
+$ scripts/analyse.py
+  exposure  first attacker 57.2 minutes after SSH went live
+  clusters  84 addresses that completed a handshake collapse into 28 client fingerprints
+  campaigns 12 of the top 15 clusters span several addresses
+  quiet     110 addresses never completed a key exchange at all (134 had at least one session that did not)
+  reconcile OK
+```
+
+### The join that the data quietly requires
+
+Cowrie records `hassh` on the key-exchange event **only**. Every other event in the same session — the logins, the
+commands, the uploads — carries an empty string in that column. Grouping those events by `hassh` therefore matches
+nothing and returns an empty result rather than an error: the first version of this analysis reported that no cluster
+ran any command and that no password was shared by anyone, and both were silently wrong.
+
+The fingerprint is now resolved per session and joined back onto every event:
+
+```sql
+FROM nsm.cowrie_events AS e
+INNER JOIN (
+    SELECT session, anyIf(hassh, hassh != '') AS hassh
+    FROM nsm.cowrie_events <window and exclusions>
+    GROUP BY session HAVING hassh != ''
+) AS s ON e.session = s.session
+```
+
+### Reconciliation
+
+Nothing derived is trusted on its own. `analyse.py` checks its own arithmetic against the snapshot it was built from —
+sessions in listed clusters, plus sessions in clusters below the cut, plus sessions with no handshake, must equal the
+snapshot's session count — and exits non-zero if they disagree. Reconciliation failures are recorded in the file as
+well as printed, so a bad analysis cannot be published quietly.
+
+### What the clustering shows
+
+- The largest cluster is **9,234 sessions from 9 addresses in three countries**, all running one command.
+- The second is **3,340 sessions from 5 addresses across four countries** — Germany, the US, Vietnam, China — which is
+  what makes a "top attacking countries" chart misleading: that chart would split one operator four ways.
+- **1,844 passwords were used by exactly one cluster and 199 by more than one.** The shared ones are the obvious
+  dictionary — `admin`, `1234`, `12345`, `123456` — while the long tail belongs to a single operator each.
+- Every one of the top commands is **exclusive to a single cluster**, which is what makes a command a usable signature
+  rather than generic reconnaissance.
+
+### What the analysis deliberately does not do
+
+It does not name malware families. Strings such as `echo xsec` and `locate D877F783D5D3EF8C` are widely reported as
+bot markers, but this project has not verified that mapping against a sample, so the clusters are identified by their
+fingerprint and behaviour and left unnamed. Attribution that cannot be checked from this data does not belong on the
+page.
+
+## Time to first attack
+
+`exposure` reports **57.2 minutes** between SSH becoming reachable from the internet and the first attacker session.
+That figure depends on one fact the honeypot data cannot supply — when the port actually opened — so the moment is
+recorded as a constant with its source (the lab's own deployment record, 2026-09-14 06:34 UTC) and is marked as an
+external input wherever it is used. The sensor's own test traffic starts 94 minutes earlier, which is exactly why that
+traffic is excluded before this figure is computed.
+
+## VirusTotal
+
+Hashes only, never a sample: `GET /api/v3/files/<sha256>`. Uploading a captured file would publish someone else's data
+and could tell an operator that their tool landed in a honeypot. Results are cached in `data/vt-cache.json`, so a
+re-run costs no requests and produces the same file, and the analysis records whether the lookup ran at all.
+
 ## Known data-quality gaps
 
 - **ASN is missing on 68% of events** (70,372 of 103,808), from 7 addresses — six of them the `109.160.32.0/24`
