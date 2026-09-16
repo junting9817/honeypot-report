@@ -1,0 +1,15 @@
+# Never-publish values. Copy to config/redactions.txt and fill in the real ones.
+#
+# config/redactions.txt is git-ignored on purpose: this repository must never contain these values, so that it can be
+# made public without rewriting history. Only this example file, with placeholders, is tracked.
+#
+# Format: one `name = value` per line. '#' starts a comment. Values still in <angle brackets> are skipped as unfilled.
+# Structural classes (RFC1918, loopback, link-local, CGNAT, GCP project ids) are covered by patterns in
+# scripts/lib/redact.py and do not need an entry here.
+
+sensor-public-ip    = <the NSM sensor's external address>
+honeypot-public-ip  = <the honeypot VM's external address>
+gcp-project         = <the GCP project id>
+home-ip             = <my home connection's public address, if it is static>
+phone-ip-1          = <a mobile address that has appeared in my own testing>
+phone-ip-2          = <another one>

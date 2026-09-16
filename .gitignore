@@ -1,0 +1,8 @@
+# The real never-publish values. Tracked as config/redactions.example.txt with placeholders only.
+config/redactions.txt
+
+# Credentials (VirusTotal API key)
+.env
+
+__pycache__/
+*.pyc
