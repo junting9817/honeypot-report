@@ -129,98 +129,113 @@ footer code { color: var(--ink-2); }
 </style>
 <div class="page">
 <header class="masthead">
-  <span class="eyebrow">A honeypot report · SSH · 2026-09-14 to 2026-09-16</span>
-  <h1>Nobody is attacking you. About thirty programs are.</h1>
+  <span class="eyebrow">A honeypot report · SSH · 2026-09-14 to 2026-09-19</span>
+  <h1>Nobody is attacking you. About forty programs are.</h1>
   <p class="thesis">
     I put an SSH server on the public internet with deliberately weak credentials and recorded everything that
     happened to it. The first automated login attempt arrived <strong>57.2 minutes</strong> later. What
-    followed looks like 197 attackers and turns out to be a much smaller number of
+    followed looks like 415 attackers and turns out to be a much smaller number of
     programs, each running from many addresses at once.
   </p>
   <div class="asof">
-    <span>data as of 2026-09-16 12:24:20 UTC</span>
-    <span>window 2026-09-14 05:57:05 → 2026-09-16 12:24:20</span>
+    <span>data as of 2026-09-19 00:36:14 UTC</span>
+    <span>window 2026-09-14 05:57:05 → 2026-09-19 00:36:14</span>
     <span>one sensor</span>
   </div>
-</header><div class="band"><div class="stat"><b>13,227</b><span>SSH sessions recorded</span></div><div class="stat"><b>197</b><span>addresses they came from</span></div><div class="stat loud"><b>28</b><span>distinct client fingerprints behind them</span></div><div class="stat loud"><b>57.2</b><span>minutes from open port to first attempt</span></div></div>
+</header><div class="band"><div class="stat"><b>28,055</b><span>SSH sessions recorded</span></div><div class="stat"><b>415</b><span>addresses they came from</span></div><div class="stat loud"><b>36</b><span>distinct client fingerprints behind them</span></div><div class="stat loud"><b>57.2</b><span>minutes from open port to first attempt</span></div></div>
 <section>
   <span class="eyebrow">Arrival</span>
   <h2>It never stops, and it does not care what time it is</h2>
-  <p>Sessions per hour of the day, UTC, summed over the window. The tallest bar is 1,488 sessions.</p>
-  <div class="hours"><div class="hour" style="height:91px" title="1151 sessions at 00:00 UTC"></div><div class="hour" style="height:40px" title="500 sessions at 01:00 UTC"></div><div class="hour" style="height:14px" title="176 sessions at 02:00 UTC"></div><div class="hour" style="height:8px" title="104 sessions at 03:00 UTC"></div><div class="hour" style="height:5px" title="67 sessions at 04:00 UTC"></div><div class="hour" style="height:15px" title="183 sessions at 05:00 UTC"></div><div class="hour" style="height:28px" title="354 sessions at 06:00 UTC"></div><div class="hour" style="height:19px" title="236 sessions at 07:00 UTC"></div><div class="hour" style="height:17px" title="219 sessions at 08:00 UTC"></div><div class="hour" style="height:48px" title="599 sessions at 09:00 UTC"></div><div class="hour" style="height:14px" title="182 sessions at 10:00 UTC"></div><div class="hour" style="height:9px" title="116 sessions at 11:00 UTC"></div><div class="hour" style="height:15px" title="187 sessions at 12:00 UTC"></div><div class="hour" style="height:51px" title="648 sessions at 13:00 UTC"></div><div class="hour" style="height:66px" title="834 sessions at 14:00 UTC"></div><div class="hour" style="height:85px" title="1073 sessions at 15:00 UTC"></div><div class="hour" style="height:69px" title="875 sessions at 16:00 UTC"></div><div class="hour" style="height:28px" title="352 sessions at 17:00 UTC"></div><div class="hour" style="height:8px" title="96 sessions at 18:00 UTC"></div><div class="hour" style="height:81px" title="1023 sessions at 19:00 UTC"></div><div class="hour" style="height:118px" title="1488 sessions at 20:00 UTC"></div><div class="hour" style="height:59px" title="738 sessions at 21:00 UTC"></div><div class="hour" style="height:56px" title="700 sessions at 22:00 UTC"></div><div class="hour" style="height:105px" title="1330 sessions at 23:00 UTC"></div></div>
+  <p>Sessions per hour of the day, UTC, summed over the window. The tallest bar is 2,758 sessions.</p>
+  <div class="hours"><div class="hour" style="height:69px" title="1606 sessions at 00:00 UTC"></div><div class="hour" style="height:23px" title="528 sessions at 01:00 UTC"></div><div class="hour" style="height:25px" title="579 sessions at 02:00 UTC"></div><div class="hour" style="height:7px" title="166 sessions at 03:00 UTC"></div><div class="hour" style="height:4px" title="83 sessions at 04:00 UTC"></div><div class="hour" style="height:19px" title="447 sessions at 05:00 UTC"></div><div class="hour" style="height:48px" title="1125 sessions at 06:00 UTC"></div><div class="hour" style="height:34px" title="804 sessions at 07:00 UTC"></div><div class="hour" style="height:18px" title="413 sessions at 08:00 UTC"></div><div class="hour" style="height:28px" title="648 sessions at 09:00 UTC"></div><div class="hour" style="height:10px" title="240 sessions at 10:00 UTC"></div><div class="hour" style="height:7px" title="166 sessions at 11:00 UTC"></div><div class="hour" style="height:10px" title="245 sessions at 12:00 UTC"></div><div class="hour" style="height:31px" title="718 sessions at 13:00 UTC"></div><div class="hour" style="height:47px" title="1089 sessions at 14:00 UTC"></div><div class="hour" style="height:76px" title="1777 sessions at 15:00 UTC"></div><div class="hour" style="height:96px" title="2255 sessions at 16:00 UTC"></div><div class="hour" style="height:116px" title="2702 sessions at 17:00 UTC"></div><div class="hour" style="height:90px" title="2113 sessions at 18:00 UTC"></div><div class="hour" style="height:118px" title="2758 sessions at 19:00 UTC"></div><div class="hour" style="height:96px" title="2251 sessions at 20:00 UTC"></div><div class="hour" style="height:50px" title="1167 sessions at 21:00 UTC"></div><div class="hour" style="height:74px" title="1728 sessions at 22:00 UTC"></div><div class="hour" style="height:106px" title="2470 sessions at 23:00 UTC"></div></div>
   <div class="hour-axis"><span>00</span><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span></div>
-  <p class="scale">per day — 2026-09-14: 2,840 · 2026-09-15: 9,208 · 2026-09-16: 1,179</p>
+  <p class="scale">per day — 2026-09-14: 2,840 · 2026-09-15: 9,208 · 2026-09-16: 6,852 · 2026-09-17: 4,027 · 2026-09-18: 5,122 · 2026-09-19: 7</p>
 </section>
 <section>
   <span class="eyebrow">Who is actually out there</span>
-  <h2>12 of the 15 busiest fingerprints run from more than one address</h2>
+  <h2>13 of the 15 busiest fingerprints run from more than one address</h2>
   <p class="lead">
     Every SSH client announces itself in the way it negotiates keys. That fingerprint — its hassh — is the same
     wherever the same build runs, so it groups sessions by the <em>program</em> behind them instead of by where the
-    packets came from. 85 addresses that got as far as a key exchange
-    collapse into 28 of them.
+    packets came from. 223 addresses that got as far as a key exchange
+    collapse into 36 of them.
   </p>
   <p>
     Clustering is done on sessions, because every session carries exactly one fingerprint. Addresses do not divide so
-    cleanly: 13 of them presented more than one client build, so they
+    cleanly: 32 of them presented more than one client build, so they
     appear in more than one group below.
   </p>
   <div class="clusters">
   <article class="cluster wide">
     <div class="cluster-head">
       <span class="cluster-id">hassh 0a07365cc01fa9fc82608ba4…</span>
-      <span class="cluster-n">9,234 sessions</span>
+      <span class="cluster-n">22,898 sessions</span>
     </div>
     <div class="bar"><i style="width:100%"></i></div>
     <div class="cluster-facts">
-      <span><b>9</b> addresses</span>
-      <span><b>3</b> countries</span>
-      <span><b>1,140</b> credential pairs tried</span>
+      <span><b>24</b> addresses</span>
+      <span><b>8</b> countries</span>
+      <span><b>1,209</b> credential pairs tried</span>
     </div>
-    <div class="addresses"><span class="chip cc">KR</span><span class="chip cc">SG</span><span class="chip cc">US</span><span class="chip">109.160.32.19</span><span class="chip">109.160.32.34</span><span class="chip">109.160.32.43</span><span class="chip">109.160.32.47</span><span class="chip">109.160.32.67</span><span class="chip">109.160.32.79</span><span class="chip">109.160.32.85</span><span class="chip">47.80.13.176</span><span class="chip">47.84.139.78</span></div>
-    <div class="cmd">uname -s -v -n -r -m</div>
+    <div class="addresses"><span class="chip cc">CN</span><span class="chip cc">HK</span><span class="chip cc">ID</span><span class="chip cc">IN</span><span class="chip cc">KR</span><span class="chip cc">RU</span><span class="chip cc">SG</span><span class="chip cc">US</span><span class="chip">103.24.63.85</span><span class="chip">109.160.32.100</span><span class="chip">109.160.32.115</span><span class="chip">109.160.32.117</span><span class="chip">109.160.32.120</span><span class="chip">109.160.32.19</span><span class="chip">109.160.32.23</span><span class="chip">109.160.32.34</span><span class="chip">109.160.32.35</span><span class="chip">109.160.32.43</span><span class="chip">109.160.32.47</span><span class="chip">109.160.32.61</span><span class="chip">+12 more</span></div>
+    <div class="cmd">echo &quot;TEST&quot;; echo -n &quot;System :&quot;; lsb_release -d | awk -F&#x27;:&#x27; &#x27;{print &quot; &quot;$2}&#x27;; echo -n &quot;Apt : &quot;; …</div><div class="cmd">uname -s -v -n -r -m</div>
   </article>
   <article class="cluster wide">
     <div class="cluster-head">
       <span class="cluster-id">hassh 98ddc5604ef6a1006a2b49a5…</span>
-      <span class="cluster-n">3,340 sessions</span>
+      <span class="cluster-n">3,344 sessions</span>
     </div>
-    <div class="bar"><i style="width:36%"></i></div>
+    <div class="bar"><i style="width:15%"></i></div>
     <div class="cluster-facts">
-      <span><b>5</b> addresses</span>
+      <span><b>9</b> addresses</span>
       <span><b>4</b> countries</span>
-      <span><b>2,408</b> credential pairs tried</span>
+      <span><b>2,409</b> credential pairs tried</span>
     </div>
-    <div class="addresses"><span class="chip cc">CN</span><span class="chip cc">DE</span><span class="chip cc">US</span><span class="chip cc">VN</span><span class="chip">106.13.98.129</span><span class="chip">118.145.118.102</span><span class="chip">157.10.198.167</span><span class="chip">206.123.140.188</span><span class="chip">74.121.190.250</span></div>
+    <div class="addresses"><span class="chip cc">CN</span><span class="chip cc">DE</span><span class="chip cc">US</span><span class="chip cc">VN</span><span class="chip">106.12.148.154</span><span class="chip">106.13.98.129</span><span class="chip">118.145.118.102</span><span class="chip">157.10.198.167</span><span class="chip">183.71.242.250</span><span class="chip">206.123.140.188</span><span class="chip">38.248.12.122</span><span class="chip">42.101.43.119</span><span class="chip">74.121.190.250</span></div>
     <div class="cmd">echo xsec</div><div class="cmd">id -u &amp;&amp; echo &#x27;---CHECK_SEP---&#x27; &amp;&amp; uname -a</div><div class="cmd">id -u &amp;&amp; echo &#x27;---OS_RELEASE---&#x27; &amp;&amp; cat /etc/os-release &amp;&amp; echo &#x27;---UNAME---&#x27; &amp;&amp; uname -a</div>
   </article>
   <article class="cluster wide">
     <div class="cluster-head">
       <span class="cluster-id">hassh 16443846184eafde36765c9b…</span>
-      <span class="cluster-n">204 sessions</span>
+      <span class="cluster-n">725 sessions</span>
     </div>
-    <div class="bar"><i style="width:2%"></i></div>
+    <div class="bar"><i style="width:3%"></i></div>
     <div class="cluster-facts">
-      <span><b>10</b> addresses</span>
-      <span><b>6</b> countries</span>
-      <span><b>187</b> credential pairs tried</span>
+      <span><b>17</b> addresses</span>
+      <span><b>8</b> countries</span>
+      <span><b>383</b> credential pairs tried</span>
     </div>
-    <div class="addresses"><span class="chip cc">AD</span><span class="chip cc">FR</span><span class="chip cc">GB</span><span class="chip cc">NL</span><span class="chip cc">SG</span><span class="chip cc">US</span><span class="chip">130.12.180.51</span><span class="chip">164.90.201.51</span><span class="chip">165.227.197.28</span><span class="chip">2.57.122.238</span><span class="chip">35.187.231.181</span><span class="chip">45.148.10.183</span><span class="chip">77.239.124.176</span><span class="chip">77.239.124.179</span><span class="chip">77.239.124.183</span><span class="chip">87.236.176.32</span></div>
-    <div class="cmd">/bin/./uname -s -v -n -r -m</div><div class="cmd">echo SHELL_TEST</div><div class="cmd">uname -a; echo -e &quot;\x61\x75\x74\x68\x5F\x6F\x6B\x0A&quot;; cd /tmp || cd /var/tmp || cd /dev/shm; ec…</div>
+    <div class="addresses"><span class="chip cc">AD</span><span class="chip cc">CN</span><span class="chip cc">DE</span><span class="chip cc">FR</span><span class="chip cc">GB</span><span class="chip cc">NL</span><span class="chip cc">SG</span><span class="chip cc">US</span><span class="chip">120.53.15.79</span><span class="chip">130.12.180.51</span><span class="chip">164.90.201.51</span><span class="chip">165.227.197.28</span><span class="chip">185.247.137.104</span><span class="chip">195.178.110.218</span><span class="chip">2.57.122.238</span><span class="chip">35.187.231.181</span><span class="chip">45.148.10.183</span><span class="chip">45.148.10.240</span><span class="chip">77.239.124.176</span><span class="chip">77.239.124.178</span><span class="chip">+5 more</span></div>
+    <div class="cmd">/bin/./uname -s -v -n -r -m</div><div class="cmd">echo SHELL_TEST</div><div class="cmd">uname -a</div>
   </article>
   <article class="cluster">
     <div class="cluster-head">
       <span class="cluster-id">hassh 3356ae6145fa86124298066e…</span>
-      <span class="cluster-n">82 sessions</span>
+      <span class="cluster-n">224 sessions</span>
     </div>
     <div class="bar"><i style="width:1%"></i></div>
     <div class="cluster-facts">
       <span><b>3</b> addresses</span>
       <span><b>1</b> countries</span>
-      <span><b>82</b> credential pairs tried</span>
+      <span><b>203</b> credential pairs tried</span>
     </div>
     <div class="addresses"><span class="chip cc">GB</span><span class="chip">193.46.255.86</span><span class="chip">2.57.121.112</span><span class="chip">2.57.121.25</span></div>
     <div class="cmd">— no command ever ran: these sessions log in and disconnect</div>
+  </article>
+  <article class="cluster wide">
+    <div class="cluster-head">
+      <span class="cluster-id">hassh 2ec37a7cc8daf20b10e1ad62…</span>
+      <span class="cluster-n">101 sessions</span>
+    </div>
+    <div class="bar"><i style="width:1%"></i></div>
+    <div class="cluster-facts">
+      <span><b>6</b> addresses</span>
+      <span><b>2</b> countries</span>
+      <span><b>56</b> credential pairs tried</span>
+    </div>
+    <div class="addresses"><span class="chip cc">AD</span><span class="chip cc">NL</span><span class="chip">193.32.162.84</span><span class="chip">195.178.110.217</span><span class="chip">2.57.122.150</span><span class="chip">2.57.122.168</span><span class="chip">80.94.92.234</span><span class="chip">92.118.39.14</span></div>
+    <div class="cmd">export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+uname=$(uname -s…</div>
   </article>
   <article class="cluster">
     <div class="cluster-head">
@@ -238,73 +253,58 @@ footer code { color: var(--ink-2); }
   </article>
   <article class="cluster wide">
     <div class="cluster-head">
-      <span class="cluster-id">hassh 084386fa7ae5039bcf6f0729…</span>
-      <span class="cluster-n">13 sessions</span>
+      <span class="cluster-id">hassh 46a2ae5b447a73d9fbe6516e…</span>
+      <span class="cluster-n">34 sessions</span>
     </div>
     <div class="bar"><i style="width:1%"></i></div>
     <div class="cluster-facts">
-      <span><b>12</b> addresses</span>
-      <span><b>2</b> countries</span>
-      <span><b>0</b> credential pairs tried</span>
+      <span><b>34</b> addresses</span>
+      <span><b>13</b> countries</span>
+      <span><b>17</b> credential pairs tried</span>
     </div>
-    <div class="addresses"><span class="chip cc">CN</span><span class="chip cc">US</span><span class="chip">103.203.57.2</span><span class="chip">103.203.59.9</span><span class="chip">109.160.32.19</span><span class="chip">109.160.32.34</span><span class="chip">109.160.32.43</span><span class="chip">109.160.32.47</span><span class="chip">109.160.32.67</span><span class="chip">109.160.32.79</span><span class="chip">109.160.32.85</span><span class="chip">165.22.145.25</span><span class="chip">66.240.223.208</span><span class="chip">66.240.236.116</span></div>
+    <div class="addresses"><span class="chip cc">AU</span><span class="chip cc">BR</span><span class="chip cc">CV</span><span class="chip cc">HK</span><span class="chip cc">ID</span><span class="chip cc">KR</span><span class="chip cc">MA</span><span class="chip cc">NG</span><span class="chip cc">PK</span><span class="chip cc">PR</span><span class="chip cc">TW</span><span class="chip cc">US</span><span class="chip cc">VN</span><span class="chip">102.212.104.164</span><span class="chip">102.220.166.102</span><span class="chip">105.191.30.226</span><span class="chip">114.72.160.219</span><span class="chip">119.197.117.134</span><span class="chip">121.151.44.72</span><span class="chip">121.181.35.16</span><span class="chip">121.188.1.185</span><span class="chip">134.122.20.126</span><span class="chip">14.37.37.167</span><span class="chip">168.70.109.242</span><span class="chip">171.232.188.70</span><span class="chip">+22 more</span></div>
     <div class="cmd">— no command ever ran: these sessions log in and disconnect</div>
   </article>
   <article class="cluster wide">
     <div class="cluster-head">
-      <span class="cluster-id">hassh dd9bcf093c355da700013213…</span>
-      <span class="cluster-n">11 sessions</span>
+      <span class="cluster-id">hassh 4e066189c3bbeec38c99b185…</span>
+      <span class="cluster-n">33 sessions</span>
     </div>
     <div class="bar"><i style="width:1%"></i></div>
     <div class="cluster-facts">
-      <span><b>11</b> addresses</span>
-      <span><b>1</b> countries</span>
-      <span><b>0</b> credential pairs tried</span>
+      <span><b>21</b> addresses</span>
+      <span><b>6</b> countries</span>
+      <span><b>10</b> credential pairs tried</span>
     </div>
-    <div class="addresses"><span class="chip cc">US</span><span class="chip">147.185.132.216</span><span class="chip">147.185.132.9</span><span class="chip">198.235.24.106</span><span class="chip">198.235.24.128</span><span class="chip">198.235.24.246</span><span class="chip">198.235.24.252</span><span class="chip">198.235.24.33</span><span class="chip">205.210.31.13</span><span class="chip">205.210.31.184</span><span class="chip">205.210.31.46</span><span class="chip">205.210.31.90</span></div>
-    <div class="cmd">— no command ever ran: these sessions log in and disconnect</div>
-  </article>
-  <article class="cluster">
-    <div class="cluster-head">
-      <span class="cluster-id">hassh 2ec37a7cc8daf20b10e1ad62…</span>
-      <span class="cluster-n">8 sessions</span>
-    </div>
-    <div class="bar"><i style="width:1%"></i></div>
-    <div class="cluster-facts">
-      <span><b>1</b> addresses</span>
-      <span><b>1</b> countries</span>
-      <span><b>8</b> credential pairs tried</span>
-    </div>
-    <div class="addresses"><span class="chip cc">NL</span><span class="chip">2.57.122.168</span></div>
-    <div class="cmd">export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
-uname=$(uname -s…</div>
+    <div class="addresses"><span class="chip cc">AE</span><span class="chip cc">BE</span><span class="chip cc">CN</span><span class="chip cc">IN</span><span class="chip cc">JP</span><span class="chip cc">US</span><span class="chip">112.126.62.31</span><span class="chip">116.177.172.64</span><span class="chip">117.72.209.201</span><span class="chip">132.145.115.202</span><span class="chip">172.104.11.34</span><span class="chip">172.105.128.11</span><span class="chip">172.236.228.197</span><span class="chip">172.236.228.86</span><span class="chip">180.76.233.159</span><span class="chip">183.60.172.37</span><span class="chip">192.155.90.118</span><span class="chip">20.235.157.149</span><span class="chip">+9 more</span></div>
+    <div class="cmd">uname -a</div>
   </article></div>
 </section>
 <section>
   <span class="eyebrow">Credentials</span>
   <h2>Two thousand passwords, and almost all of them belong to one program</h2>
   <p>
-    12,850 logins were accepted and 112 refused — the honeypot says yes to
+    27,229 logins were accepted and 168 refused — the honeypot says yes to
     almost anything, which is what makes the guesses worth reading. They used
-    513 usernames and 2,049 passwords.
+    649 usernames and 2,322 passwords.
   </p>
   <p>
-    <strong>1,849 of those passwords were tried by exactly one fingerprint, and only
-    199 by more than one.</strong> The shared handful is the famous dictionary everyone
+    <strong>2,080 of those passwords were tried by exactly one fingerprint, and only
+    241 by more than one.</strong> The shared handful is the famous dictionary everyone
     has; the long tail is each program carrying its own list.
   </p>
   <div class="table-wrap">
     <table>
       <caption class="eyebrow" style="padding-bottom:10px">Most tried pairs</caption>
       <thead><tr><th>Username</th><th>Password</th><th>Attempts</th><th>Addresses</th></tr></thead>
-      <tbody><tr><td class="k">admin</td><td class="k"><em>(empty)</em></td><td class="n">79</td><td class="n">2</td></tr><tr><td class="k">admin</td><td class="k">admin</td><td class="n">25</td><td class="n">17</td></tr><tr><td class="k">root</td><td class="k">root123</td><td class="n">19</td><td class="n">11</td></tr><tr><td class="k">root</td><td class="k">root@123</td><td class="n">19</td><td class="n">11</td></tr><tr><td class="k">root</td><td class="k">12345</td><td class="n">18</td><td class="n">12</td></tr><tr><td class="k">root</td><td class="k">a123456A</td><td class="n">18</td><td class="n">11</td></tr><tr><td class="k">root</td><td class="k">123456</td><td class="n">17</td><td class="n">11</td></tr><tr><td class="k">root</td><td class="k">1234567890</td><td class="n">17</td><td class="n">10</td></tr><tr><td class="k">root</td><td class="k">Aa112211</td><td class="n">17</td><td class="n">10</td></tr><tr><td class="k">root</td><td class="k">Aa@123456</td><td class="n">17</td><td class="n">10</td></tr><tr><td class="k">root</td><td class="k">Password1</td><td class="n">17</td><td class="n">10</td></tr><tr><td class="k">root</td><td class="k">Password@123</td><td class="n">17</td><td class="n">10</td></tr></tbody>
+      <tbody><tr><td class="k">admin</td><td class="k"><em>(empty)</em></td><td class="n">83</td><td class="n">5</td></tr><tr><td class="k">admin</td><td class="k">admin</td><td class="n">62</td><td class="n">38</td></tr><tr><td class="k">root</td><td class="k">123456</td><td class="n">45</td><td class="n">28</td></tr><tr><td class="k">root</td><td class="k">root</td><td class="n">45</td><td class="n">28</td></tr><tr><td class="k">root</td><td class="k">12345</td><td class="n">44</td><td class="n">28</td></tr><tr><td class="k">ubuntu</td><td class="k">ubuntu</td><td class="n">44</td><td class="n">24</td></tr><tr><td class="k">root</td><td class="k">admin</td><td class="n">43</td><td class="n">27</td></tr><tr><td class="k">user</td><td class="k">user</td><td class="n">43</td><td class="n">24</td></tr><tr><td class="k">root</td><td class="k">123</td><td class="n">41</td><td class="n">25</td></tr><tr><td class="k">root</td><td class="k">root123</td><td class="n">41</td><td class="n">24</td></tr><tr><td class="k">root</td><td class="k">1234</td><td class="n">40</td><td class="n">25</td></tr><tr><td class="k">root</td><td class="k">12345678</td><td class="n">40</td><td class="n">24</td></tr></tbody>
     </table>
   </div>
   <div class="table-wrap">
     <table>
       <caption class="eyebrow" style="padding-bottom:10px">Passwords shared between programs</caption>
       <thead><tr><th>Password</th><th>Used by fingerprints</th><th>Attempts</th></tr></thead>
-      <tbody><tr><td class="k">admin</td><td class="n">6</td><td class="n">80</td></tr><tr><td class="k">1234</td><td class="n">5</td><td class="n">248</td></tr><tr><td class="k">12345</td><td class="n">5</td><td class="n">100</td></tr><tr><td class="k">123456</td><td class="n">4</td><td class="n">697</td></tr><tr><td class="k">123</td><td class="n">4</td><td class="n">310</td></tr><tr><td class="k">12345678</td><td class="n">4</td><td class="n">162</td></tr><tr><td class="k">test</td><td class="n">4</td><td class="n">43</td></tr><tr><td class="k">Admin@123</td><td class="n">4</td><td class="n">31</td></tr></tbody>
+      <tbody><tr><td class="k">admin</td><td class="n">8</td><td class="n">197</td></tr><tr><td class="k">admin123</td><td class="n">7</td><td class="n">124</td></tr><tr><td class="k">123456</td><td class="n">6</td><td class="n">1,749</td></tr><tr><td class="k">1234</td><td class="n">6</td><td class="n">611</td></tr><tr><td class="k">12345678</td><td class="n">5</td><td class="n">412</td></tr><tr><td class="k">root</td><td class="n">5</td><td class="n">302</td></tr><tr><td class="k">12345</td><td class="n">5</td><td class="n">240</td></tr><tr><td class="k">Admin@123</td><td class="n">5</td><td class="n">75</td></tr></tbody>
     </table>
   </div>
 </section>
@@ -312,7 +312,7 @@ uname=$(uname -s…</div>
   <span class="eyebrow">Behaviour</span>
   <h2>What they do once they are in: almost nothing</h2>
   <p>
-    A typical session lasts 1.099 seconds. The visitor logs in, runs one command to find out what
+    A typical session lasts 1.253 seconds. The visitor logs in, runs one command to find out what
     kind of machine it landed on, and leaves. 14 of the 15 most common
     commands are run by exactly one fingerprint, which is what makes a command a signature rather than generic
     curiosity.
@@ -320,22 +320,22 @@ uname=$(uname -s…</div>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Command</th><th>Times</th><th>Addresses</th><th>Run by</th></tr></thead>
-      <tbody><tr><td class="k">uname -s -v -n -r -m</td><td class="n">9,207</td><td class="n">9</td><td>one program</td></tr><tr><td class="k">echo xsec</td><td class="n">3,327</td><td class="n">3</td><td>one program</td></tr><tr><td class="k">/bin/./uname -s -v -n -r -m</td><td class="n">178</td><td class="n">4</td><td>one program</td></tr><tr><td class="k">echo SHELL_TEST</td><td class="n">18</td><td class="n">1</td><td>one program</td></tr><tr><td class="k">export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/…</td><td class="n">7</td><td class="n">1</td><td>one program</td></tr><tr><td class="k">uname -a</td><td class="n">5</td><td class="n">5</td><td>2 programs</td></tr><tr><td class="k">uname -s -m</td><td class="n">4</td><td class="n">4</td><td>one program</td></tr><tr><td class="k">whoami</td><td class="n">4</td><td class="n">1</td><td>one program</td></tr><tr><td class="k">/ip cloud print</td><td class="n">3</td><td class="n">3</td><td>one program</td></tr><tr><td class="k">cat /proc/cpuinfo</td><td class="n">3</td><td class="n">3</td><td>one program</td></tr></tbody>
+      <tbody><tr><td class="k">uname -s -v -n -r -m</td><td class="n">22,780</td><td class="n">22</td><td>one program</td></tr><tr><td class="k">echo xsec</td><td class="n">3,327</td><td class="n">3</td><td>one program</td></tr><tr><td class="k">/bin/./uname -s -v -n -r -m</td><td class="n">664</td><td class="n">6</td><td>one program</td></tr><tr><td class="k">export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/…</td><td class="n">95</td><td class="n">6</td><td>one program</td></tr><tr><td class="k">echo SHELL_TEST</td><td class="n">36</td><td class="n">1</td><td>one program</td></tr><tr><td class="k">uname -a</td><td class="n">16</td><td class="n">16</td><td>3 programs</td></tr><tr><td class="k">uname -a; echo -e &quot;\x61\x75\x74\x68\x5F\x6F\x6B\x0A&quot;; cd /tmp || cd /…</td><td class="n">6</td><td class="n">1</td><td>one program</td></tr><tr><td class="k">uname -s -m</td><td class="n">6</td><td class="n">6</td><td>one program</td></tr><tr><td class="k">/ip cloud print</td><td class="n">5</td><td class="n">5</td><td>one program</td></tr><tr><td class="k">cat /proc/cpuinfo</td><td class="n">5</td><td class="n">5</td><td>one program</td></tr></tbody>
     </table>
   </div>
   <div class="split">
     <div class="note loud">
       <h3>Never even knocked properly</h3>
-      <b class="big">112</b>
+      <b class="big">192</b>
       <p>addresses connected but never completed a key exchange, across
-         37 countries — 237 sessions of pure scanning. They are the majority of
+         48 countries — 481 sessions of pure scanning. They are the majority of
          the addresses and almost none of the traffic.</p>
     </div>
     <div class="note">
       <h3>Longest session</h3>
-      <b class="big">304.885s</b>
-      <p>against a median of 1.099s and a 90th percentile of 1.742s.
-         73 sessions closed instantly.</p>
+      <b class="big">356.639s</b>
+      <p>against a median of 1.253s and a 90th percentile of 6.544s.
+         109 sessions closed instantly.</p>
     </div>
   </div>
 </section>
@@ -354,7 +354,7 @@ uname=$(uname -s…</div>
   <div class="table-wrap">
     <table>
       <thead><tr><th>When (UTC)</th><th>From</th><th>Filename</th><th>SHA-256</th><th>VirusTotal</th></tr></thead>
-      <tbody><tr><td class="k">2026-09-14 07:36:16</td><td class="k">118.145.118.102 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">97a1e6f817d44a4f8b07…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-14 10:05:08</td><td class="k">106.13.98.129 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">e3b0c44298fc1c149afb…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-15 21:37:56</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-15 21:37:56</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 11:29:51</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 11:29:51</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr></tbody>
+      <tbody><tr><td class="k">2026-09-14 07:36:16</td><td class="k">118.145.118.102 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">97a1e6f817d44a4f8b07…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-14 10:05:08</td><td class="k">106.13.98.129 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">e3b0c44298fc1c149afb…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-15 21:37:56</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-15 21:37:56</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 11:29:51</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 11:29:51</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 17:26:47</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 17:26:47</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 19:25:50</td><td class="k">77.90.185.20 <span class="chip cc">DE</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-16 19:25:50</td><td class="k">77.90.185.20 <span class="chip cc">DE</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 01:23:10</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 01:23:10</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 10:09:32</td><td class="k">42.101.43.119 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">765289f938cc2bd64c97…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 14:34:19</td><td class="k">183.71.242.250 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">9ecbeee2c88e701fe3d3…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 16:19:10</td><td class="k">38.248.12.122 <span class="chip cc">US</span></td><td class="k">sshd</td><td class="k">9ecbeee2c88e701fe3d3…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 17:41:03</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 17:41:03</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-17 20:56:19</td><td class="k">106.12.148.154 <span class="chip cc">CN</span></td><td class="k">sshd</td><td class="k">e3b0c44298fc1c149afb…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-18 12:57:20</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">00b6f15c2274420217ed…</td><td><em>not looked up</em></td></tr><tr><td class="k">2026-09-18 12:57:20</td><td class="k">130.12.180.51 <span class="chip cc">NL</span></td><td class="k">—</td><td class="k">43728fbfb98bb39ff61a…</td><td><em>not looked up</em></td></tr></tbody>
     </table>
   </div>
 </section>
@@ -369,12 +369,12 @@ uname=$(uname -s…</div>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Code</th><th>Country</th><th>Sessions</th><th>Addresses</th></tr></thead>
-      <tbody><tr><td class="k">US</td><td>United States</td><td class="n">9,458</td><td class="n">60</td></tr><tr><td class="k">DE</td><td>Germany</td><td class="n">2,436</td><td class="n">4</td></tr><tr><td class="k">KR</td><td>South Korea</td><td class="n">384</td><td class="n">3</td></tr><tr><td class="k">VN</td><td>Vietnam</td><td class="n">374</td><td class="n">2</td></tr><tr><td class="k">SG</td><td>Singapore</td><td class="n">106</td><td class="n">4</td></tr><tr><td class="k">AD</td><td>Andorra</td><td class="n">103</td><td class="n">5</td></tr><tr><td class="k">NL</td><td>The Netherlands</td><td class="n">101</td><td class="n">10</td></tr><tr><td class="k">GB</td><td>United Kingdom</td><td class="n">91</td><td class="n">10</td></tr><tr><td class="k">CN</td><td>China</td><td class="n">45</td><td class="n">27</td></tr><tr><td class="k">BE</td><td>Belgium</td><td class="n">19</td><td class="n">6</td></tr></tbody>
+      <tbody><tr><td class="k">US</td><td>United States</td><td class="n">22,487</td><td class="n">130</td></tr><tr><td class="k">DE</td><td>Germany</td><td class="n">2,448</td><td class="n">9</td></tr><tr><td class="k">AD</td><td>Andorra</td><td class="n">558</td><td class="n">9</td></tr><tr><td class="k">KR</td><td>South Korea</td><td class="n">398</td><td class="n">17</td></tr><tr><td class="k">ID</td><td>Indonesia</td><td class="n">387</td><td class="n">4</td></tr><tr><td class="k">VN</td><td>Vietnam</td><td class="n">377</td><td class="n">5</td></tr><tr><td class="k">NL</td><td>The Netherlands</td><td class="n">273</td><td class="n">21</td></tr><tr><td class="k">IN</td><td>India</td><td class="n">251</td><td class="n">3</td></tr><tr><td class="k">GB</td><td>United Kingdom</td><td class="n">250</td><td class="n">19</td></tr><tr><td class="k">CN</td><td>China</td><td class="n">219</td><td class="n">53</td></tr></tbody>
     </table>
   </div>
   <p>
     Network attribution is worse here than geography: the database used has no operator for
-    7 of the addresses, and those account for 68% of all events. Any
+    17 of the addresses, and those account for 79% of all events. Any
     "top networks" ranking from this data would describe a third of the traffic while looking like it described all
     of it, so this page does not print one.
   </p>
@@ -414,8 +414,8 @@ uname=$(uname -s…</div>
 </section>
 <footer>
   <p>
-    Window 2026-09-14 05:57:05 → 2026-09-16 12:24:20 UTC ·
-    103,859 events · generated from
+    Window 2026-09-14 05:57:05 → 2026-09-19 00:36:14 UTC ·
+    219,800 events · generated from
     <code>nsm.cowrie_events</code> by <code>scripts/build-site.py</code>.
     Source addresses are published in full; they attacked an internet-facing sensor. Nothing identifying the sensor's
     operator appears anywhere on this page, and that is enforced by a check, not by memory.

