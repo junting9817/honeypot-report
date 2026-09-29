@@ -4,6 +4,10 @@ An SSH honeypot has been running on a VM of mine since 14 September 2026. It acc
 everything the visitor types, and never lets them near a real machine. This repository turns what it catches into a
 page anyone can read, and documents how each number was produced.
 
+<img src="docs/page.png" alt="Port 22 Observatory" width="100%">
+
+<sub>The published report, regenerated weekly from the live honeypot data. Regenerate with <code>scripts/build-site.py</code> then <code>docs/screenshot.sh --top 1500</code>.</sub>
+
 It is the publishing half of my [network monitoring lab](../JC); the honeypot itself lives there, on its own VM in its
 own VPC.
 
